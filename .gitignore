@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local datasets, archives, databases, and generated experiment outputs
+*.zip
+*.db
+datasets/
+outputs/
+experiments/
+result/
+tmp*/
+remote_*/
+
+# Model checkpoints and logs
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# Local environment and editor files
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+Thumbs.db
+
