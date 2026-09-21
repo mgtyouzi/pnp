@@ -1,0 +1,19 @@
+{
+  "version": "frozen_proto_candidate_separation_v1_20260828",
+  "mode": "source_calibrate",
+  "selected_images": 200,
+  "candidate_rows": 46303,
+  "sampling": "slide_group_round_robin",
+  "load_missing_keys": [
+    "prototype_head.prototypes",
+    "prototype_head.prototype_ready",
+    "prototype_head.projector.weight",
+    "prototype_head.projector.bias",
+    "prototype_head.selector.fg_prototypes",
+    "prototype_head.selector.negative_bank",
+    "prototype_head.selector.negative_count",
+    "prototype_head.selector.prototype_ready",
+    "prototype_head.selector.sampling_step"
+  ],
+  "load_unexpected_keys": []
+}

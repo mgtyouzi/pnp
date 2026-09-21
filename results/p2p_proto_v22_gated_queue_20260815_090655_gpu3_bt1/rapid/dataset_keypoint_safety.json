@@ -1,0 +1,47 @@
+{
+  "dataset": "/home/data/yh_1/SET_3/p2p-src-zzh-2025/datasets/石蜡-2025",
+  "samples_requested": 200,
+  "counts": {
+    "getitem_requests": 200,
+    "successful_samples": 200,
+    "load_or_transform_errors": 0,
+    "replacement_samples": 0,
+    "crop_size_errors": 0,
+    "source_points_seen": 38097,
+    "source_points_clipped": 3,
+    "source_points_dropped": 0,
+    "augmentation_points_input": 38097,
+    "augmentation_points_output": 35689,
+    "augmentation_points_removed": 2408
+  },
+  "records": [
+    {
+      "event": "source_point_clipped",
+      "image": "/home/data/yh_1/SET_3/p2p-src-zzh-2025/datasets/石蜡-2025/train_image/2022-06-28_11_14_35.kfb_822.jpg",
+      "old_x": 1425.7835998535156,
+      "old_y": -0.7440645694733,
+      "x": 1425.7835998535156,
+      "y": 0.0
+    },
+    {
+      "event": "source_point_clipped",
+      "image": "/home/data/yh_1/SET_3/p2p-src-zzh-2025/datasets/石蜡-2025/train_image/2022-06-28_11_16_48.kfb_781.jpg",
+      "old_x": -0.5885620117188,
+      "old_y": 239.2398681640625,
+      "x": 0.0,
+      "y": 239.2398681640625
+    },
+    {
+      "event": "source_point_clipped",
+      "image": "/home/data/yh_1/SET_3/p2p-src-zzh-2025/datasets/石蜡-2025/train_image/2022-06-28_11_15_54.kfb_1090.jpg",
+      "old_x": -0.0321924686432,
+      "old_y": 535.1175880432129,
+      "x": 0.0,
+      "y": 535.1175880432129
+    }
+  ],
+  "source_points_dropped_rate": 0.0,
+  "status": "PASS",
+  "failures": [],
+  "warnings": []
+}

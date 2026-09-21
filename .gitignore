@@ -11,6 +11,14 @@ datasets/
 outputs/
 experiments/
 result/
+results/**/*.pth
+results/**/*.pt
+results/**/*.ckpt
+results/**/*.npz
+results/**/*.db
+results/**/*.log
+results/**/*.pid
+results/**/raw/
 tmp*/
 remote_*/
 
@@ -27,4 +35,3 @@ venv/
 .vscode/
 .idea/
 Thumbs.db
-

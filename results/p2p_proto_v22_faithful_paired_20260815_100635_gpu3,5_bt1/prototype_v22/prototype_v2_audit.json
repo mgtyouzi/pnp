@@ -1,0 +1,144 @@
+{
+  "epochs_logged": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "initialized_epochs": [
+    0
+  ],
+  "ready_epochs": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "mean_positive_per_step": 175.15695396669932,
+  "mean_rejected_positive_per_step": 6.185235063663075,
+  "mean_hard_background_per_step": 16.0,
+  "mean_random_background_per_step": 16.0,
+  "mean_training_batch_fraction": 1.0,
+  "mean_prototype_loss": 0.41981919068956236,
+  "mean_positive_prototype_loss": 0.4667983788691663,
+  "mean_hard_background_prototype_loss": 0.8635822638669826,
+  "mean_random_background_prototype_loss": 0.08814961091318653,
+  "mean_gradient_proto_cls_ratio": 0.0,
+  "mean_gradient_cosine": 0.0,
+  "minimum_foreground_drift_cosine_after_init": 0.996748685836792,
+  "minimum_background_drift_cosine_after_init": 0.9968217611312866,
+  "mean_foreground_background_similarity": 0.7683591991662979,
+  "max_foreground_background_similarity": 0.9864146709442139,
+  "final_foreground_background_similarity_mean": 0.7790462970733643,
+  "final_foreground_background_similarity_max": 0.9864146709442139,
+  "final_fresh_foreground_background_similarity_mean": 0.6466094851493835,
+  "final_fresh_foreground_background_similarity_max": 0.9965262413024902,
+  "minimum_projector_probe_drift_cosine_after_init": 0.9454100131988525,
+  "final_foreground_fresh_old_alignment_cosine": 0.6166768074035645,
+  "final_background_fresh_old_alignment_cosine": 0.6286958456039429,
+  "final_foreground_updated_fresh_cosine": 0.6771641969680786,
+  "final_background_updated_fresh_cosine": 0.6878873705863953,
+  "final_background_center_source_composition": [
+    {
+      "center": 0,
+      "hard_count_per_step": 0.004407443682664055,
+      "random_count_per_step": 15.302154750244858,
+      "hard_fraction": 0.000287944714614794
+    },
+    {
+      "center": 1,
+      "hard_count_per_step": 0.007835455435847209,
+      "random_count_per_step": 0.002938295788442703,
+      "hard_fraction": 0.7272727272727273
+    },
+    {
+      "center": 2,
+      "hard_count_per_step": 13.545543584720862,
+      "random_count_per_step": 0.07002938295788443,
+      "hard_fraction": 0.9948566701435098
+    },
+    {
+      "center": 3,
+      "hard_count_per_step": 0.5739471106758081,
+      "random_count_per_step": 0.5411361410381978,
+      "hard_fraction": 0.5147123407992973
+    },
+    {
+      "center": 4,
+      "hard_count_per_step": 0.14201762977473065,
+      "random_count_per_step": 0.0,
+      "hard_fraction": 1.0
+    },
+    {
+      "center": 5,
+      "hard_count_per_step": 0.28158667972575907,
+      "random_count_per_step": 0.0,
+      "hard_fraction": 1.0
+    },
+    {
+      "center": 6,
+      "hard_count_per_step": 0.5499510284035259,
+      "random_count_per_step": 0.00832517140058766,
+      "hard_fraction": 0.9850877192982457
+    },
+    {
+      "center": 7,
+      "hard_count_per_step": 0.8947110675808031,
+      "random_count_per_step": 0.07541625857002938,
+      "hard_fraction": 0.9222614840989399
+    }
+  ],
+  "final_worst_cross_background_source_composition": {
+    "center": 1,
+    "hard_count_per_step": 0.007835455435847209,
+    "random_count_per_step": 0.002938295788442703,
+    "hard_fraction": 0.7272727272727273
+  },
+  "final_positive_margin": 0.6739058032062681,
+  "final_background_margin": -2.2973570967864805,
+  "final_positive_correct_rate": 0.8569453087189288,
+  "final_background_correct_rate": 0.6541380999020568,
+  "initial_hard_background_correct_rate": 0.23298237022526935,
+  "final_hard_background_correct_rate": 0.35381978452497553,
+  "hard_background_correct_rate_delta": 0.12083741429970618,
+  "final_random_background_correct_rate": 0.954456415279138,
+  "final_worst_cross_foreground_index": 3,
+  "final_worst_cross_background_index": 1,
+  "final_worst_cross_foreground_share": 0.001220703125,
+  "final_worst_cross_background_share": 0.0001220703125,
+  "final_foreground_effective_prototypes": 2.0220827746630277,
+  "final_background_effective_prototypes": 3.5578078307307504,
+  "maximum_foreground_assignment_share": 0.6103515625,
+  "minimum_foreground_assignment_share": 0.001220703125,
+  "maximum_background_assignment_share": 0.47784423828125,
+  "minimum_background_assignment_share": 0.0001220703125,
+  "final_foreground_assignment_max_share": 0.6103515625,
+  "final_foreground_assignment_min_share": 0.001220703125,
+  "final_background_assignment_max_share": 0.4759521484375,
+  "final_background_assignment_min_share": 0.0001220703125,
+  "post_initialization_epochs": 3,
+  "mechanism_gates": {
+    "positive_correct_at_least_0p75": true,
+    "hard_background_correct_at_least_0p50": false,
+    "hard_background_drop_no_more_than_0p10": true,
+    "foreground_effective_at_least_70pct": false,
+    "background_effective_at_least_70pct": false,
+    "cross_similarity_mean_at_most_0p75": false,
+    "fresh_cross_similarity_mean_at_most_0p75": true,
+    "projector_probe_drift_at_least_0p90": true,
+    "ema_targets_tracked_at_least_0p90": false,
+    "gradient_ratio_in_0p02_to_0p30": false,
+    "gradient_cosine_at_least_minus_0p10": true
+  },
+  "long_run_ready": false,
+  "failures": [],
+  "warnings": [
+    "foreground/background prototype pair fg=3, bg=1 nearly overlaps in the final epoch (cosine 0.9864, shares 0.001220703125/0.0001220703125, low-usage collision)",
+    "foreground prototype occupancy is concentrated in the final epoch (maximum share 0.6104)",
+    "a foreground prototype is nearly unused in the final epoch (minimum share 0.0012)",
+    "a background prototype is nearly unused in the final epoch (minimum share 0.0001)",
+    "prototype gradient reaching shared P2P features is weak (0.0000 of classification gradient)",
+    "not ready for a long run; failed mechanism gates: hard_background_correct_at_least_0p50, foreground_effective_at_least_70pct, background_effective_at_least_70pct, cross_similarity_mean_at_most_0p75, ema_targets_tracked_at_least_0p90, gradient_ratio_in_0p02_to_0p30"
+  ],
+  "status": "WARN"
+}

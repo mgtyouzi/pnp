@@ -1,0 +1,27 @@
+{
+  "epochs_logged": [
+    20,
+    21
+  ],
+  "initialized_epochs": [
+    20
+  ],
+  "ready_epochs": [
+    20,
+    21
+  ],
+  "mean_positive_per_step": 134.125,
+  "mean_rejected_positive_per_step": 32.0,
+  "mean_hard_background_per_step": 16.0,
+  "mean_random_background_per_step": 16.0,
+  "mean_prototype_loss": 0.28379218131303785,
+  "mean_gradient_proto_cls_ratio": 0.014419572288170457,
+  "mean_gradient_cosine": -0.01672723485971801,
+  "minimum_foreground_drift_cosine_after_init": 0.9999992847442627,
+  "minimum_background_drift_cosine_after_init": 0.9999989867210388,
+  "mean_foreground_background_similarity": 0.6221439838409424,
+  "max_foreground_background_similarity": 0.9950194656848907,
+  "failures": [],
+  "warnings": [],
+  "status": "PASS"
+}

@@ -1,0 +1,391 @@
+Training Log
+Epoch 0: Regression Loss=187.8861, Classification Loss=54.2441, Prototype Loss=17.9900, Total Loss=260.1202, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 1: Regression Loss=186.7951, Classification Loss=54.6955, Prototype Loss=16.2911, Total Loss=257.7817, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 2: Regression Loss=189.9922, Classification Loss=55.2759, Prototype Loss=15.9792, Total Loss=261.2473, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 3: Regression Loss=190.7326, Classification Loss=56.3522, Prototype Loss=16.0116, Total Loss=263.0964, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 4: Regression Loss=193.0442, Classification Loss=57.5644, Prototype Loss=15.9033, Total Loss=266.5119, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 5: Regression Loss=199.4476, Classification Loss=57.9750, Prototype Loss=15.9132, Total Loss=273.3358, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 6: Regression Loss=201.8384, Classification Loss=58.2940, Prototype Loss=15.8852, Total Loss=276.0175, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 7: Regression Loss=205.6681, Classification Loss=57.7891, Prototype Loss=15.6563, Total Loss=279.1134, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 8: Regression Loss=200.0542, Classification Loss=58.2599, Prototype Loss=15.6741, Total Loss=273.9882, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 9: Regression Loss=197.5498, Classification Loss=58.1284, Prototype Loss=15.6702, Total Loss=271.3484, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_10_20260819-231330.pth
+Epoch 10: Regression Loss=200.4575, Classification Loss=58.0760, Prototype Loss=15.5812, Total Loss=274.1147, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 11: Regression Loss=196.4211, Classification Loss=58.1833, Prototype Loss=15.5893, Total Loss=270.1937, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 12: Regression Loss=197.4935, Classification Loss=57.8190, Prototype Loss=15.4998, Total Loss=270.8123, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 13: Regression Loss=200.7134, Classification Loss=57.8861, Prototype Loss=15.3958, Total Loss=273.9953, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 14: Regression Loss=200.2048, Classification Loss=58.0860, Prototype Loss=15.4204, Total Loss=273.7113, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 15: Regression Loss=200.7735, Classification Loss=58.3807, Prototype Loss=15.4485, Total Loss=274.6027, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 16: Regression Loss=196.4161, Classification Loss=57.9751, Prototype Loss=15.3922, Total Loss=269.7834, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 17: Regression Loss=201.8470, Classification Loss=57.5411, Prototype Loss=15.3730, Total Loss=274.7611, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 18: Regression Loss=197.2883, Classification Loss=58.0830, Prototype Loss=15.4125, Total Loss=270.7838, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 19: Regression Loss=198.7516, Classification Loss=58.1694, Prototype Loss=15.3501, Total Loss=272.2711, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_20_20260820-052439.pth
+Epoch 20: Regression Loss=203.2096, Classification Loss=57.4747, Prototype Loss=15.2534, Total Loss=275.9377, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 21: Regression Loss=202.1359, Classification Loss=57.7162, Prototype Loss=15.3201, Total Loss=275.1722, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 22: Regression Loss=199.3238, Classification Loss=57.6282, Prototype Loss=15.4063, Total Loss=272.3583, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 23: Regression Loss=197.0647, Classification Loss=57.4624, Prototype Loss=15.2237, Total Loss=269.7508, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 24: Regression Loss=193.8715, Classification Loss=57.1615, Prototype Loss=15.2049, Total Loss=266.2378, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 25: Regression Loss=193.8309, Classification Loss=57.6065, Prototype Loss=15.1874, Total Loss=266.6248, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 26: Regression Loss=199.3723, Classification Loss=57.2672, Prototype Loss=15.1553, Total Loss=271.7948, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 27: Regression Loss=190.3999, Classification Loss=57.0407, Prototype Loss=15.0429, Total Loss=262.4835, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 28: Regression Loss=196.2855, Classification Loss=57.5048, Prototype Loss=15.1777, Total Loss=268.9680, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 29: Regression Loss=197.5776, Classification Loss=57.1275, Prototype Loss=15.1162, Total Loss=269.8212, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_30_20260820-110520.pth
+Epoch 30: Regression Loss=193.9294, Classification Loss=57.5817, Prototype Loss=15.1417, Total Loss=266.6527, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 30 Evaluation:
+  Detection Precision=0.6187, Recall=0.8662, F1=0.7218
+  Classification Precision=0.6187, Recall=0.8662, F1=0.7218
+  Best Classification F1: 0.0000
+Epoch 31: Regression Loss=196.9117, Classification Loss=57.3199, Prototype Loss=15.2068, Total Loss=269.4384, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 31 Evaluation:
+  Detection Precision=0.7108, Recall=0.7884, F1=0.7476
+  Classification Precision=0.7108, Recall=0.7884, F1=0.7476
+  Best Classification F1: 0.7218
+Epoch 32: Regression Loss=192.2904, Classification Loss=57.2701, Prototype Loss=15.0963, Total Loss=264.6569, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 32 Evaluation:
+  Detection Precision=0.7012, Recall=0.8016, F1=0.7481
+  Classification Precision=0.7012, Recall=0.8016, F1=0.7481
+  Best Classification F1: 0.7476
+Epoch 33: Regression Loss=197.6805, Classification Loss=57.0359, Prototype Loss=15.0752, Total Loss=269.7916, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 33 Evaluation:
+  Detection Precision=0.7141, Recall=0.7879, F1=0.7492
+  Classification Precision=0.7141, Recall=0.7879, F1=0.7492
+  Best Classification F1: 0.7481
+Epoch 34: Regression Loss=193.5319, Classification Loss=57.0921, Prototype Loss=15.0339, Total Loss=265.6579, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 34 Evaluation:
+  Detection Precision=0.6861, Recall=0.8134, F1=0.7444
+  Classification Precision=0.6861, Recall=0.8134, F1=0.7444
+  Best Classification F1: 0.7492
+Epoch 35: Regression Loss=191.1589, Classification Loss=57.0558, Prototype Loss=14.9344, Total Loss=263.1491, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 35 Evaluation:
+  Detection Precision=0.7632, Recall=0.7335, F1=0.7480
+  Classification Precision=0.7632, Recall=0.7335, F1=0.7480
+  Best Classification F1: 0.7492
+Epoch 36: Regression Loss=191.3203, Classification Loss=56.8704, Prototype Loss=14.9975, Total Loss=263.1882, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 36 Evaluation:
+  Detection Precision=0.7265, Recall=0.7742, F1=0.7496
+  Classification Precision=0.7265, Recall=0.7742, F1=0.7496
+  Best Classification F1: 0.7492
+Epoch 37: Regression Loss=198.4682, Classification Loss=56.7308, Prototype Loss=15.0502, Total Loss=270.2491, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 37 Evaluation:
+  Detection Precision=0.7036, Recall=0.7984, F1=0.7480
+  Classification Precision=0.7036, Recall=0.7984, F1=0.7480
+  Best Classification F1: 0.7496
+Epoch 38: Regression Loss=193.5011, Classification Loss=56.7032, Prototype Loss=14.8672, Total Loss=265.0715, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 38 Evaluation:
+  Detection Precision=0.7522, Recall=0.7465, F1=0.7493
+  Classification Precision=0.7522, Recall=0.7465, F1=0.7493
+  Best Classification F1: 0.7496
+Epoch 39: Regression Loss=194.1930, Classification Loss=56.7548, Prototype Loss=15.0149, Total Loss=265.9627, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 39 Evaluation:
+  Detection Precision=0.7324, Recall=0.7689, F1=0.7502
+  Classification Precision=0.7324, Recall=0.7689, F1=0.7502
+  Best Classification F1: 0.7496
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_40_20260820-175459.pth
+Epoch 40: Regression Loss=191.4033, Classification Loss=56.3514, Prototype Loss=15.0050, Total Loss=262.7596, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 40 Evaluation:
+  Detection Precision=0.6790, Recall=0.8206, F1=0.7431
+  Classification Precision=0.6790, Recall=0.8206, F1=0.7431
+  Best Classification F1: 0.7502
+Epoch 41: Regression Loss=191.9882, Classification Loss=56.2758, Prototype Loss=14.8508, Total Loss=263.1149, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 41 Evaluation:
+  Detection Precision=0.7432, Recall=0.7585, F1=0.7508
+  Classification Precision=0.7432, Recall=0.7585, F1=0.7508
+  Best Classification F1: 0.7502
+Epoch 42: Regression Loss=190.7293, Classification Loss=56.3907, Prototype Loss=14.9194, Total Loss=262.0394, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 42 Evaluation:
+  Detection Precision=0.7014, Recall=0.8017, F1=0.7482
+  Classification Precision=0.7014, Recall=0.8017, F1=0.7482
+  Best Classification F1: 0.7508
+Epoch 43: Regression Loss=189.4162, Classification Loss=56.3622, Prototype Loss=14.8079, Total Loss=260.5863, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 43 Evaluation:
+  Detection Precision=0.6585, Recall=0.8391, F1=0.7379
+  Classification Precision=0.6585, Recall=0.8391, F1=0.7379
+  Best Classification F1: 0.7508
+Epoch 44: Regression Loss=185.5694, Classification Loss=56.1567, Prototype Loss=14.8436, Total Loss=256.5696, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 44 Evaluation:
+  Detection Precision=0.6920, Recall=0.8135, F1=0.7478
+  Classification Precision=0.6920, Recall=0.8135, F1=0.7478
+  Best Classification F1: 0.7508
+Epoch 45: Regression Loss=186.0250, Classification Loss=56.1623, Prototype Loss=14.8488, Total Loss=257.0361, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 45 Evaluation:
+  Detection Precision=0.7136, Recall=0.7909, F1=0.7503
+  Classification Precision=0.7136, Recall=0.7909, F1=0.7503
+  Best Classification F1: 0.7508
+Epoch 46: Regression Loss=181.8041, Classification Loss=56.1515, Prototype Loss=14.7979, Total Loss=252.7536, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 46 Evaluation:
+  Detection Precision=0.7444, Recall=0.7588, F1=0.7515
+  Classification Precision=0.7444, Recall=0.7588, F1=0.7515
+  Best Classification F1: 0.7508
+Epoch 47: Regression Loss=186.0250, Classification Loss=55.9317, Prototype Loss=14.6637, Total Loss=256.6204, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 47 Evaluation:
+  Detection Precision=0.6860, Recall=0.8189, F1=0.7466
+  Classification Precision=0.6860, Recall=0.8189, F1=0.7466
+  Best Classification F1: 0.7515
+Epoch 48: Regression Loss=188.9542, Classification Loss=55.4269, Prototype Loss=14.7367, Total Loss=259.1177, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 48 Evaluation:
+  Detection Precision=0.7488, Recall=0.7553, F1=0.7520
+  Classification Precision=0.7488, Recall=0.7553, F1=0.7520
+  Best Classification F1: 0.7515
+Epoch 49: Regression Loss=193.5241, Classification Loss=55.5917, Prototype Loss=14.7558, Total Loss=263.8716, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 49 Evaluation:
+  Detection Precision=0.7028, Recall=0.8006, F1=0.7485
+  Classification Precision=0.7028, Recall=0.8006, F1=0.7485
+  Best Classification F1: 0.7520
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_50_20260820-235842.pth
+Epoch 50: Regression Loss=187.3894, Classification Loss=55.4792, Prototype Loss=14.5862, Total Loss=257.4547, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 50 Evaluation:
+  Detection Precision=0.7215, Recall=0.7864, F1=0.7525
+  Classification Precision=0.7215, Recall=0.7864, F1=0.7525
+  Best Classification F1: 0.7520
+Epoch 51: Regression Loss=183.7312, Classification Loss=55.6263, Prototype Loss=14.6554, Total Loss=254.0129, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 51 Evaluation:
+  Detection Precision=0.7041, Recall=0.8041, F1=0.7508
+  Classification Precision=0.7041, Recall=0.8041, F1=0.7508
+  Best Classification F1: 0.7525
+Epoch 52: Regression Loss=187.0052, Classification Loss=55.5296, Prototype Loss=14.5382, Total Loss=257.0729, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 52 Evaluation:
+  Detection Precision=0.7501, Recall=0.7566, F1=0.7533
+  Classification Precision=0.7501, Recall=0.7566, F1=0.7533
+  Best Classification F1: 0.7525
+Epoch 53: Regression Loss=183.9063, Classification Loss=55.5721, Prototype Loss=14.5969, Total Loss=254.0753, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 53 Evaluation:
+  Detection Precision=0.6795, Recall=0.8268, F1=0.7459
+  Classification Precision=0.6795, Recall=0.8268, F1=0.7459
+  Best Classification F1: 0.7533
+Epoch 54: Regression Loss=182.9745, Classification Loss=55.5105, Prototype Loss=14.5599, Total Loss=253.0448, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 54 Evaluation:
+  Detection Precision=0.7286, Recall=0.7789, F1=0.7529
+  Classification Precision=0.7286, Recall=0.7789, F1=0.7529
+  Best Classification F1: 0.7533
+Epoch 55: Regression Loss=184.5503, Classification Loss=55.1577, Prototype Loss=14.4794, Total Loss=254.1874, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 55 Evaluation:
+  Detection Precision=0.7182, Recall=0.7903, F1=0.7525
+  Classification Precision=0.7182, Recall=0.7903, F1=0.7525
+  Best Classification F1: 0.7533
+Epoch 56: Regression Loss=186.4025, Classification Loss=54.8467, Prototype Loss=14.5639, Total Loss=255.8130, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 56 Evaluation:
+  Detection Precision=0.7270, Recall=0.7844, F1=0.7546
+  Classification Precision=0.7270, Recall=0.7844, F1=0.7546
+  Best Classification F1: 0.7533
+Epoch 57: Regression Loss=186.9152, Classification Loss=54.9361, Prototype Loss=14.4915, Total Loss=256.3428, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 57 Evaluation:
+  Detection Precision=0.6833, Recall=0.8230, F1=0.7467
+  Classification Precision=0.6833, Recall=0.8230, F1=0.7467
+  Best Classification F1: 0.7546
+Epoch 58: Regression Loss=181.0348, Classification Loss=54.8790, Prototype Loss=14.4848, Total Loss=250.3986, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 58 Evaluation:
+  Detection Precision=0.7083, Recall=0.8023, F1=0.7524
+  Classification Precision=0.7083, Recall=0.8023, F1=0.7524
+  Best Classification F1: 0.7546
+Epoch 59: Regression Loss=180.5180, Classification Loss=54.8429, Prototype Loss=14.3789, Total Loss=249.7397, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 59 Evaluation:
+  Detection Precision=0.6961, Recall=0.8132, F1=0.7501
+  Classification Precision=0.6961, Recall=0.8132, F1=0.7501
+  Best Classification F1: 0.7546
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_60_20260821-053718.pth
+Epoch 60: Regression Loss=177.1083, Classification Loss=54.9807, Prototype Loss=14.4521, Total Loss=246.5412, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 60 Evaluation:
+  Detection Precision=0.7348, Recall=0.7736, F1=0.7537
+  Classification Precision=0.7348, Recall=0.7736, F1=0.7537
+  Best Classification F1: 0.7546
+Epoch 61: Regression Loss=181.5574, Classification Loss=54.6514, Prototype Loss=14.3824, Total Loss=250.5912, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 61 Evaluation:
+  Detection Precision=0.7453, Recall=0.7646, F1=0.7548
+  Classification Precision=0.7453, Recall=0.7646, F1=0.7548
+  Best Classification F1: 0.7546
+Epoch 62: Regression Loss=181.9504, Classification Loss=54.7735, Prototype Loss=14.3338, Total Loss=251.0577, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 62 Evaluation:
+  Detection Precision=0.6817, Recall=0.8272, F1=0.7474
+  Classification Precision=0.6817, Recall=0.8272, F1=0.7474
+  Best Classification F1: 0.7548
+Epoch 63: Regression Loss=180.7151, Classification Loss=54.3589, Prototype Loss=14.3645, Total Loss=249.4385, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 63 Evaluation:
+  Detection Precision=0.7154, Recall=0.7958, F1=0.7535
+  Classification Precision=0.7154, Recall=0.7958, F1=0.7535
+  Best Classification F1: 0.7548
+Epoch 64: Regression Loss=178.1693, Classification Loss=54.4603, Prototype Loss=14.3445, Total Loss=246.9741, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 64 Evaluation:
+  Detection Precision=0.7150, Recall=0.7975, F1=0.7540
+  Classification Precision=0.7150, Recall=0.7975, F1=0.7540
+  Best Classification F1: 0.7548
+Epoch 65: Regression Loss=176.0125, Classification Loss=54.4685, Prototype Loss=14.4078, Total Loss=244.8889, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 65 Evaluation:
+  Detection Precision=0.6999, Recall=0.8113, F1=0.7515
+  Classification Precision=0.6999, Recall=0.8113, F1=0.7515
+  Best Classification F1: 0.7548
+Epoch 66: Regression Loss=175.7692, Classification Loss=54.4981, Prototype Loss=14.3483, Total Loss=244.6156, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 66 Evaluation:
+  Detection Precision=0.7408, Recall=0.7711, F1=0.7557
+  Classification Precision=0.7408, Recall=0.7711, F1=0.7557
+  Best Classification F1: 0.7548
+Epoch 67: Regression Loss=178.7325, Classification Loss=54.2315, Prototype Loss=14.2740, Total Loss=247.2380, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 67 Evaluation:
+  Detection Precision=0.7190, Recall=0.7942, F1=0.7547
+  Classification Precision=0.7190, Recall=0.7942, F1=0.7547
+  Best Classification F1: 0.7557
+Epoch 68: Regression Loss=179.5468, Classification Loss=53.9792, Prototype Loss=14.2607, Total Loss=247.7868, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 68 Evaluation:
+  Detection Precision=0.7129, Recall=0.8006, F1=0.7542
+  Classification Precision=0.7129, Recall=0.8006, F1=0.7542
+  Best Classification F1: 0.7557
+Epoch 69: Regression Loss=177.0020, Classification Loss=54.2596, Prototype Loss=14.1943, Total Loss=245.4558, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 69 Evaluation:
+  Detection Precision=0.7239, Recall=0.7903, F1=0.7556
+  Classification Precision=0.7239, Recall=0.7903, F1=0.7556
+  Best Classification F1: 0.7557
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_70_20260821-102033.pth
+Epoch 70: Regression Loss=176.0430, Classification Loss=54.3781, Prototype Loss=14.1967, Total Loss=244.6178, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 70 Evaluation:
+  Detection Precision=0.7182, Recall=0.7935, F1=0.7539
+  Classification Precision=0.7182, Recall=0.7935, F1=0.7539
+  Best Classification F1: 0.7557
+Epoch 71: Regression Loss=173.3167, Classification Loss=54.2125, Prototype Loss=14.2325, Total Loss=241.7617, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 71 Evaluation:
+  Detection Precision=0.7024, Recall=0.8100, F1=0.7524
+  Classification Precision=0.7024, Recall=0.8100, F1=0.7524
+  Best Classification F1: 0.7557
+Epoch 72: Regression Loss=173.8834, Classification Loss=54.0236, Prototype Loss=14.1874, Total Loss=242.0943, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 72 Evaluation:
+  Detection Precision=0.7048, Recall=0.8089, F1=0.7533
+  Classification Precision=0.7048, Recall=0.8089, F1=0.7533
+  Best Classification F1: 0.7557
+Epoch 73: Regression Loss=174.1342, Classification Loss=54.0903, Prototype Loss=14.1459, Total Loss=242.3704, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 73 Evaluation:
+  Detection Precision=0.6963, Recall=0.8163, F1=0.7515
+  Classification Precision=0.6963, Recall=0.8163, F1=0.7515
+  Best Classification F1: 0.7557
+Epoch 74: Regression Loss=174.5611, Classification Loss=53.7591, Prototype Loss=14.1337, Total Loss=242.4539, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 74 Evaluation:
+  Detection Precision=0.7073, Recall=0.8061, F1=0.7535
+  Classification Precision=0.7073, Recall=0.8061, F1=0.7535
+  Best Classification F1: 0.7557
+Epoch 75: Regression Loss=170.7177, Classification Loss=54.0186, Prototype Loss=14.0607, Total Loss=238.7970, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 75 Evaluation:
+  Detection Precision=0.7064, Recall=0.8081, F1=0.7538
+  Classification Precision=0.7064, Recall=0.8081, F1=0.7538
+  Best Classification F1: 0.7557
+Epoch 76: Regression Loss=173.7228, Classification Loss=53.7128, Prototype Loss=14.1755, Total Loss=241.6111, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 76 Evaluation:
+  Detection Precision=0.7261, Recall=0.7894, F1=0.7564
+  Classification Precision=0.7261, Recall=0.7894, F1=0.7564
+  Best Classification F1: 0.7557
+Epoch 77: Regression Loss=170.2816, Classification Loss=53.9149, Prototype Loss=14.1122, Total Loss=238.3086, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 77 Evaluation:
+  Detection Precision=0.7174, Recall=0.7975, F1=0.7553
+  Classification Precision=0.7174, Recall=0.7975, F1=0.7553
+  Best Classification F1: 0.7564
+Epoch 78: Regression Loss=172.8890, Classification Loss=53.8212, Prototype Loss=14.0218, Total Loss=240.7321, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 78 Evaluation:
+  Detection Precision=0.7011, Recall=0.8123, F1=0.7526
+  Classification Precision=0.7011, Recall=0.8123, F1=0.7526
+  Best Classification F1: 0.7564
+Epoch 79: Regression Loss=172.6373, Classification Loss=53.5700, Prototype Loss=14.0358, Total Loss=240.2430, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 79 Evaluation:
+  Detection Precision=0.7152, Recall=0.7995, F1=0.7550
+  Classification Precision=0.7152, Recall=0.7995, F1=0.7550
+  Best Classification F1: 0.7564
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_80_20260821-150153.pth
+Epoch 80: Regression Loss=170.7351, Classification Loss=53.6381, Prototype Loss=14.0092, Total Loss=238.3823, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 80 Evaluation:
+  Detection Precision=0.7020, Recall=0.8119, F1=0.7530
+  Classification Precision=0.7020, Recall=0.8119, F1=0.7530
+  Best Classification F1: 0.7564
+Epoch 81: Regression Loss=169.6592, Classification Loss=53.8453, Prototype Loss=14.0781, Total Loss=237.5826, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 81 Evaluation:
+  Detection Precision=0.7047, Recall=0.8108, F1=0.7540
+  Classification Precision=0.7047, Recall=0.8108, F1=0.7540
+  Best Classification F1: 0.7564
+Epoch 82: Regression Loss=171.9354, Classification Loss=53.5022, Prototype Loss=14.1482, Total Loss=239.5858, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 82 Evaluation:
+  Detection Precision=0.7100, Recall=0.8052, F1=0.7546
+  Classification Precision=0.7100, Recall=0.8052, F1=0.7546
+  Best Classification F1: 0.7564
+Epoch 83: Regression Loss=170.2410, Classification Loss=53.7570, Prototype Loss=14.0040, Total Loss=238.0020, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 83 Evaluation:
+  Detection Precision=0.7161, Recall=0.8000, F1=0.7557
+  Classification Precision=0.7161, Recall=0.8000, F1=0.7557
+  Best Classification F1: 0.7564
+Epoch 84: Regression Loss=170.1587, Classification Loss=53.4142, Prototype Loss=14.0515, Total Loss=237.6244, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 84 Evaluation:
+  Detection Precision=0.7157, Recall=0.8002, F1=0.7556
+  Classification Precision=0.7157, Recall=0.8002, F1=0.7556
+  Best Classification F1: 0.7564
+Epoch 85: Regression Loss=172.6098, Classification Loss=53.3391, Prototype Loss=13.9375, Total Loss=239.8864, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 85 Evaluation:
+  Detection Precision=0.7230, Recall=0.7939, F1=0.7568
+  Classification Precision=0.7230, Recall=0.7939, F1=0.7568
+  Best Classification F1: 0.7564
+Epoch 86: Regression Loss=171.7180, Classification Loss=53.3251, Prototype Loss=13.9687, Total Loss=239.0117, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 86 Evaluation:
+  Detection Precision=0.7205, Recall=0.7958, F1=0.7563
+  Classification Precision=0.7205, Recall=0.7958, F1=0.7563
+  Best Classification F1: 0.7568
+Epoch 87: Regression Loss=168.6300, Classification Loss=53.4931, Prototype Loss=13.9494, Total Loss=236.0725, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 87 Evaluation:
+  Detection Precision=0.7071, Recall=0.8087, F1=0.7545
+  Classification Precision=0.7071, Recall=0.8087, F1=0.7545
+  Best Classification F1: 0.7568
+Epoch 88: Regression Loss=173.2907, Classification Loss=53.1308, Prototype Loss=14.0094, Total Loss=240.4309, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 88 Evaluation:
+  Detection Precision=0.7144, Recall=0.8015, F1=0.7555
+  Classification Precision=0.7144, Recall=0.8015, F1=0.7555
+  Best Classification F1: 0.7568
+Epoch 89: Regression Loss=172.0552, Classification Loss=53.3222, Prototype Loss=13.9847, Total Loss=239.3622, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 89 Evaluation:
+  Detection Precision=0.7006, Recall=0.8140, F1=0.7530
+  Classification Precision=0.7006, Recall=0.8140, F1=0.7530
+  Best Classification F1: 0.7568
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_90_20260821-201032.pth
+Epoch 90: Regression Loss=173.1975, Classification Loss=52.9214, Prototype Loss=13.9933, Total Loss=240.1122, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 90 Evaluation:
+  Detection Precision=0.7134, Recall=0.8031, F1=0.7556
+  Classification Precision=0.7134, Recall=0.8031, F1=0.7556
+  Best Classification F1: 0.7568
+Epoch 91: Regression Loss=169.1628, Classification Loss=53.3556, Prototype Loss=13.8917, Total Loss=236.4101, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 91 Evaluation:
+  Detection Precision=0.7053, Recall=0.8109, F1=0.7544
+  Classification Precision=0.7053, Recall=0.8109, F1=0.7544
+  Best Classification F1: 0.7568
+Epoch 92: Regression Loss=167.4096, Classification Loss=53.4051, Prototype Loss=13.9522, Total Loss=234.7669, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 92 Evaluation:
+  Detection Precision=0.7059, Recall=0.8101, F1=0.7544
+  Classification Precision=0.7059, Recall=0.8101, F1=0.7544
+  Best Classification F1: 0.7568
+Epoch 93: Regression Loss=170.8042, Classification Loss=53.2648, Prototype Loss=13.9287, Total Loss=237.9977, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 93 Evaluation:
+  Detection Precision=0.7144, Recall=0.8027, F1=0.7560
+  Classification Precision=0.7144, Recall=0.8027, F1=0.7560
+  Best Classification F1: 0.7568
+Epoch 94: Regression Loss=168.6291, Classification Loss=53.1514, Prototype Loss=13.9442, Total Loss=235.7247, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 94 Evaluation:
+  Detection Precision=0.7127, Recall=0.8046, F1=0.7559
+  Classification Precision=0.7127, Recall=0.8046, F1=0.7559
+  Best Classification F1: 0.7568
+Epoch 95: Regression Loss=169.0898, Classification Loss=53.2869, Prototype Loss=14.0161, Total Loss=236.3927, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 95 Evaluation:
+  Detection Precision=0.7127, Recall=0.8039, F1=0.7556
+  Classification Precision=0.7127, Recall=0.8039, F1=0.7556
+  Best Classification F1: 0.7568
+Epoch 96: Regression Loss=171.4711, Classification Loss=53.1488, Prototype Loss=13.9478, Total Loss=238.5677, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 96 Evaluation:
+  Detection Precision=0.7091, Recall=0.8075, F1=0.7551
+  Classification Precision=0.7091, Recall=0.8075, F1=0.7551
+  Best Classification F1: 0.7568
+Epoch 97: Regression Loss=172.6355, Classification Loss=53.0203, Prototype Loss=13.9092, Total Loss=239.5649, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 97 Evaluation:
+  Detection Precision=0.7096, Recall=0.8072, F1=0.7552
+  Classification Precision=0.7096, Recall=0.8072, F1=0.7552
+  Best Classification F1: 0.7568
+Epoch 98: Regression Loss=168.6249, Classification Loss=53.1252, Prototype Loss=13.9459, Total Loss=235.6960, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 98 Evaluation:
+  Detection Precision=0.7080, Recall=0.8085, F1=0.7549
+  Classification Precision=0.7080, Recall=0.8085, F1=0.7549
+  Best Classification F1: 0.7568
+Epoch 99: Regression Loss=170.0473, Classification Loss=53.1089, Prototype Loss=13.9045, Total Loss=237.0607, Prototype State={'supervised_proto_fixed_state_unchanged': 1.0, 'prototype_ready': 1.0, 'prototype_epoch_refresh_events': 0.0}
+Epoch 99 Evaluation:
+  Detection Precision=0.7142, Recall=0.8027, F1=0.7559
+  Classification Precision=0.7142, Recall=0.8027, F1=0.7559
+  Best Classification F1: 0.7568
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/p2p_frozen_supervised_proto/model_epoch_100_20260822-005844.pth

@@ -1,0 +1,54 @@
+{
+  "epochs_logged": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "initialized_epochs": [
+    0
+  ],
+  "ready_epochs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "mean_positive_per_step": 178.2925,
+  "mean_rejected_positive_per_step": 5.3475,
+  "mean_hard_background_per_step": 16.0,
+  "mean_random_background_per_step": 16.0,
+  "mean_prototype_loss": 0.4394906430691481,
+  "mean_gradient_proto_cls_ratio": 0.12004829762237412,
+  "mean_gradient_cosine": 0.010322306843175155,
+  "minimum_foreground_drift_cosine_after_init": 0.9999913573265076,
+  "minimum_background_drift_cosine_after_init": 0.9999880790710449,
+  "mean_foreground_background_similarity": 0.7725665122270584,
+  "max_foreground_background_similarity": 0.9648255109786987,
+  "final_foreground_background_similarity_mean": 0.7719842195510864,
+  "final_foreground_background_similarity_max": 0.9648255109786987,
+  "final_positive_margin": 0.6264492499828339,
+  "final_background_margin": -1.8549396193027496,
+  "maximum_foreground_assignment_share": 0.567626953125,
+  "minimum_foreground_assignment_share": 0.092041015625,
+  "maximum_background_assignment_share": 0.5065625,
+  "minimum_background_assignment_share": 0.014375,
+  "final_foreground_assignment_max_share": 0.521728515625,
+  "final_foreground_assignment_min_share": 0.092041015625,
+  "final_background_assignment_max_share": 0.4990625,
+  "final_background_assignment_min_share": 0.0225,
+  "post_initialization_epochs": 7,
+  "failures": [],
+  "warnings": [
+    "at least one foreground/background prototype pair nearly overlaps in the final epoch (maximum cosine 0.9648)"
+  ],
+  "status": "WARN"
+}

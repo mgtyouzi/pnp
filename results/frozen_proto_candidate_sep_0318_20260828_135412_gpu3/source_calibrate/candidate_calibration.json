@@ -1,0 +1,23 @@
+{
+  "version": "frozen_proto_candidate_separation_v1_20260828",
+  "beta": 0.1,
+  "raw_mean": 2.2085627893222415,
+  "raw_std": 1.6301025408719416,
+  "prototype_mean": 0.9128697025091608,
+  "prototype_std": 1.1456165918732604,
+  "joint_threshold": -0.4893424250753651,
+  "source_auc": 0.8101450841143066,
+  "source_balanced_accuracy": 0.7399649334757205,
+  "positive_count": 29539,
+  "negative_count": 8403,
+  "mode": "source_calibrate",
+  "diagnostic_only": true,
+  "checkpoint": "/home/data/yh_1/p2p-yfh/p2p-src-zzh-2025/pth/0318/best_model.pth",
+  "checkpoint_epoch": 136,
+  "checkpoint_sha256": "b1918d9954418132d20777447d5025f88464cfafc9a47ce41ff548234fb1251a",
+  "bank": "/home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/frozen_bank/frozen_supervised_metric_bank.pth",
+  "bank_id": "supervised-metric-0efa7de19fdf32b7",
+  "bank_state_sha256": "60d8ae51037b5c5774ce17f6961e5aeceb86da501513534b16693c182b4022d0",
+  "dataset": "/home/data/yh_1/SET_2/p2p-src-zzh-2025/datasets/石蜡-2025",
+  "phase": "test"
+}

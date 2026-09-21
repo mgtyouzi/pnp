@@ -1,0 +1,151 @@
+{
+  "epochs_logged": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "initialized_epochs": [
+    0
+  ],
+  "ready_epochs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "mean_positive_per_step": 180.07125,
+  "mean_rejected_positive_per_step": 5.85,
+  "mean_hard_background_per_step": 16.0,
+  "mean_random_background_per_step": 16.0,
+  "mean_training_batch_fraction": 0.04897159647404505,
+  "mean_prototype_loss": 0.5366640690714121,
+  "mean_positive_prototype_loss": 0.6038298336522919,
+  "mean_hard_background_prototype_loss": 0.7610939370308604,
+  "mean_random_background_prototype_loss": 0.098280027293201,
+  "mean_gradient_proto_cls_ratio": 0.11180545895227365,
+  "mean_gradient_cosine": 0.00967692406021732,
+  "minimum_foreground_drift_cosine_after_init": 0.998516321182251,
+  "minimum_background_drift_cosine_after_init": 0.9983867406845093,
+  "mean_foreground_background_similarity": 0.7804927751421928,
+  "max_foreground_background_similarity": 0.9837029576301575,
+  "final_foreground_background_similarity_mean": 0.8069252371788025,
+  "final_foreground_background_similarity_max": 0.9824510216712952,
+  "final_fresh_foreground_background_similarity_mean": 0.7690364122390747,
+  "final_fresh_foreground_background_similarity_max": 0.99564528465271,
+  "minimum_projector_probe_drift_cosine_after_init": 0.9977078437805176,
+  "final_foreground_fresh_old_alignment_cosine": 0.8842964172363281,
+  "final_background_fresh_old_alignment_cosine": 0.8217537999153137,
+  "final_foreground_updated_fresh_cosine": 0.9050970077514648,
+  "final_background_updated_fresh_cosine": 0.8520163893699646,
+  "final_background_center_source_composition": [
+    {
+      "center": 0,
+      "hard_count_per_step": 0.0,
+      "random_count_per_step": 15.35,
+      "hard_fraction": 0.0
+    },
+    {
+      "center": 1,
+      "hard_count_per_step": 0.72,
+      "random_count_per_step": 0.0,
+      "hard_fraction": 1.0
+    },
+    {
+      "center": 2,
+      "hard_count_per_step": 3.7,
+      "random_count_per_step": 0.0,
+      "hard_fraction": 1.0
+    },
+    {
+      "center": 3,
+      "hard_count_per_step": 0.78,
+      "random_count_per_step": 0.02,
+      "hard_fraction": 0.975
+    },
+    {
+      "center": 4,
+      "hard_count_per_step": 3.77,
+      "random_count_per_step": 0.0,
+      "hard_fraction": 1.0
+    },
+    {
+      "center": 5,
+      "hard_count_per_step": 5.25,
+      "random_count_per_step": 0.01,
+      "hard_fraction": 0.9980988593155894
+    },
+    {
+      "center": 6,
+      "hard_count_per_step": 0.31,
+      "random_count_per_step": 0.0,
+      "hard_fraction": 1.0
+    },
+    {
+      "center": 7,
+      "hard_count_per_step": 1.47,
+      "random_count_per_step": 0.62,
+      "hard_fraction": 0.7033492822966507
+    }
+  ],
+  "final_worst_cross_background_source_composition": {
+    "center": 7,
+    "hard_count_per_step": 1.47,
+    "random_count_per_step": 0.62,
+    "hard_fraction": 0.7033492822966507
+  },
+  "final_positive_margin": 0.3518717138469219,
+  "final_background_margin": -1.705869607925415,
+  "final_positive_correct_rate": 0.8633619225025178,
+  "final_background_correct_rate": 0.605625,
+  "initial_hard_background_correct_rate": 0.640625,
+  "final_hard_background_correct_rate": 0.251875,
+  "hard_background_correct_rate_delta": -0.38875,
+  "final_random_background_correct_rate": 0.959375,
+  "final_worst_cross_foreground_index": 1,
+  "final_worst_cross_background_index": 7,
+  "final_worst_cross_foreground_share": 0.274658203125,
+  "final_worst_cross_background_share": 0.0665625,
+  "final_foreground_effective_prototypes": 2.806091716605585,
+  "final_background_effective_prototypes": 4.856891098243509,
+  "maximum_foreground_assignment_share": 0.6123046875,
+  "minimum_foreground_assignment_share": 0.05078125,
+  "maximum_background_assignment_share": 0.4809375,
+  "minimum_background_assignment_share": 0.0115625,
+  "final_foreground_assignment_max_share": 0.588134765625,
+  "final_foreground_assignment_min_share": 0.054443359375,
+  "final_background_assignment_max_share": 0.479375,
+  "final_background_assignment_min_share": 0.0115625,
+  "post_initialization_epochs": 7,
+  "mechanism_gates": {
+    "positive_correct_at_least_0p75": true,
+    "hard_background_correct_at_least_0p50": false,
+    "hard_background_drop_no_more_than_0p10": false,
+    "foreground_effective_at_least_70pct": true,
+    "background_effective_at_least_70pct": false,
+    "cross_similarity_mean_at_most_0p75": false,
+    "fresh_cross_similarity_mean_at_most_0p75": false,
+    "projector_probe_drift_at_least_0p90": true,
+    "ema_targets_tracked_at_least_0p90": false,
+    "gradient_ratio_in_0p02_to_0p30": true,
+    "gradient_cosine_at_least_minus_0p10": true
+  },
+  "long_run_ready": false,
+  "failures": [],
+  "warnings": [
+    "prototype centers were updated from truncated epochs (mean batch fraction 0.0490); use this run only as a rapid mechanism gate",
+    "foreground/background prototype pair fg=1, bg=7 nearly overlaps in the final epoch (cosine 0.9825, shares 0.274658203125/0.0665625, high-usage collision)",
+    "fresh foreground/background KMeans targets overlap (mean cosine 0.7690)",
+    "foreground prototype margin is weak (0.3519)",
+    "not ready for a long run; failed mechanism gates: hard_background_correct_at_least_0p50, hard_background_drop_no_more_than_0p10, background_effective_at_least_70pct, cross_similarity_mean_at_most_0p75, fresh_cross_similarity_mean_at_most_0p75, ema_targets_tracked_at_least_0p90"
+  ],
+  "status": "WARN"
+}

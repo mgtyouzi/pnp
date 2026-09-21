@@ -1,0 +1,133 @@
+{
+  "bank": "/home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/frozen_teacher_fg_bank_0318_k4/frozen_teacher_fg_bank.pth",
+  "features": "/home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/frozen_teacher_fg_bank_0318_k4/prototype_calibration_features.npz",
+  "configuration": {
+    "bank": "experiments/frozen_teacher_fg_bank_0318_k4/frozen_teacher_fg_bank.pth",
+    "features": "experiments/frozen_teacher_fg_bank_0318_k4/prototype_calibration_features.npz",
+    "output_dir": "experiments/frozen_teacher_fg_bank_0318_k4/geometry_diagnosis",
+    "gpu": 0,
+    "temperature": 0.1,
+    "negative_sample_size": 256,
+    "negative_energy_blocks": 4,
+    "negative_sampling_seed": 0,
+    "ridge": 0.01,
+    "linear_probe_samples_per_class": 8192
+  },
+  "counts": {
+    "positive": 704,
+    "hard_negative": 176,
+    "random_negative": 176
+  },
+  "method_results": [
+    {
+      "method": "foreground_similarity",
+      "negative_group": "hard_negative",
+      "auc": 0.36968943698347106,
+      "balanced_accuracy": 0.5319602272727273,
+      "threshold": 0.698904107093811,
+      "positive_mean": 0.5115387439727783,
+      "negative_mean": 0.5922232270240784
+    },
+    {
+      "method": "foreground_similarity",
+      "negative_group": "random_negative",
+      "auc": 0.7298069473140496,
+      "balanced_accuracy": 0.7947443181818182,
+      "threshold": 0.4391607801914215,
+      "positive_mean": 0.5115387439727783,
+      "negative_mean": 0.3760967254638672
+    },
+    {
+      "method": "foreground_similarity",
+      "negative_group": "all_negative",
+      "auc": 0.5497481921487604,
+      "balanced_accuracy": 0.5759943181818182,
+      "threshold": 0.4388044875860214,
+      "positive_mean": 0.5115387439727783,
+      "negative_mean": 0.4841599762439728
+    },
+    {
+      "method": "nearest_bank_margin",
+      "negative_group": "hard_negative",
+      "auc": 0.4056527634297521,
+      "balanced_accuracy": 0.5383522727272727,
+      "threshold": 0.0016933674514293443,
+      "positive_mean": -0.11541572213172913,
+      "negative_mean": -0.07294394820928574
+    },
+    {
+      "method": "nearest_bank_margin",
+      "negative_group": "random_negative",
+      "auc": 0.04379196797520662,
+      "balanced_accuracy": 0.5,
+      "threshold": -0.41304758191108704,
+      "positive_mean": -0.11541572213172913,
+      "negative_mean": 0.10000757873058319
+    },
+    {
+      "method": "nearest_bank_margin",
+      "negative_group": "all_negative",
+      "auc": 0.22472236570247933,
+      "balanced_accuracy": 0.5,
+      "threshold": -0.41304758191108704,
+      "positive_mean": -0.11541572213172913,
+      "negative_mean": 0.013531815260648727
+    },
+    {
+      "method": "protonce_relative_energy",
+      "negative_group": "hard_negative",
+      "auc": 0.42210098140495866,
+      "balanced_accuracy": 0.5632102272727273,
+      "threshold": -2.4941964926719664,
+      "positive_mean": -3.1960227489471436,
+      "negative_mean": -3.003143310546875
+    },
+    {
+      "method": "protonce_relative_energy",
+      "negative_group": "random_negative",
+      "auc": 0.05120092975206614,
+      "balanced_accuracy": 0.5,
+      "threshold": -5.09564208984375,
+      "positive_mean": -3.1960227489471436,
+      "negative_mean": -1.155856966972351
+    },
+    {
+      "method": "protonce_relative_energy",
+      "negative_group": "all_negative",
+      "auc": 0.2366509555785124,
+      "balanced_accuracy": 0.5,
+      "threshold": -5.09564208984375,
+      "positive_mean": -3.1960227489471436,
+      "negative_mean": -2.079500198364258
+    },
+    {
+      "method": "ridge_linear_probe",
+      "negative_group": "hard_negative",
+      "auc": 0.6164207773760331,
+      "balanced_accuracy": 0.5901988636363636,
+      "threshold": 0.20328740701079367,
+      "positive_mean": 0.3065301775932312,
+      "negative_mean": 0.19959376752376556
+    },
+    {
+      "method": "ridge_linear_probe",
+      "negative_group": "random_negative",
+      "auc": 0.9588794550619836,
+      "balanced_accuracy": 0.9552556818181819,
+      "threshold": -0.3690841828584671,
+      "positive_mean": 0.3065301775932312,
+      "negative_mean": -0.8322136402130127
+    },
+    {
+      "method": "ridge_linear_probe",
+      "negative_group": "all_negative",
+      "auc": 0.7876501162190083,
+      "balanced_accuracy": 0.7350852272727273,
+      "threshold": -0.10863888502120972,
+      "positive_mean": 0.3065301775932312,
+      "negative_mean": -0.31630995869636536
+    }
+  ],
+  "conclusion": "prototype_objective_mismatch",
+  "next_action": "Frozen features contain usable signal, but one-sided foreground ProtoNCE is wrong. Replace it with a discriminative two-class head or class-conditional foreground/background prototypes."
+}

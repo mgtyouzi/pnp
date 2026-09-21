@@ -1,0 +1,23 @@
+Training Log
+Epoch 0: Regression Loss=2.3517, Classification Loss=37.4587, Prototype Loss=0.0000, Total Loss=39.8104, Prototype State={}
+Epoch 1: Regression Loss=4.2689, Classification Loss=5.4069, Prototype Loss=0.0000, Total Loss=9.6759, Prototype State={}
+Epoch 2: Regression Loss=3.9809, Classification Loss=2.5613, Prototype Loss=0.0000, Total Loss=6.5422, Prototype State={}
+Epoch 3: Regression Loss=5.2193, Classification Loss=3.0703, Prototype Loss=0.0000, Total Loss=8.2896, Prototype State={}
+Epoch 4: Regression Loss=10.3420, Classification Loss=1.8496, Prototype Loss=0.0000, Total Loss=12.1916, Prototype State={}
+Epoch 5: Regression Loss=17.7337, Classification Loss=2.2190, Prototype Loss=0.0000, Total Loss=19.9527, Prototype State={}
+Epoch 6: Regression Loss=7.7048, Classification Loss=2.4141, Prototype Loss=0.0000, Total Loss=10.1189, Prototype State={}
+Epoch 7: Regression Loss=10.5613, Classification Loss=2.4062, Prototype Loss=0.0000, Total Loss=12.9675, Prototype State={}
+Epoch 8: Regression Loss=18.1612, Classification Loss=1.9495, Prototype Loss=0.0000, Total Loss=20.1108, Prototype State={}
+Epoch 9: Regression Loss=15.0012, Classification Loss=1.8232, Prototype Loss=0.0000, Total Loss=16.8244, Prototype State={}
+Epoch 10: Regression Loss=9.5110, Classification Loss=1.9045, Prototype Loss=0.0000, Total Loss=11.4155, Prototype State={}
+Epoch 11: Regression Loss=11.2269, Classification Loss=1.4336, Prototype Loss=0.0000, Total Loss=12.6605, Prototype State={}
+Epoch 12: Regression Loss=7.2916, Classification Loss=1.6153, Prototype Loss=0.0000, Total Loss=8.9068, Prototype State={}
+Epoch 13: Regression Loss=10.1597, Classification Loss=1.6283, Prototype Loss=0.0000, Total Loss=11.7881, Prototype State={}
+Epoch 14: Regression Loss=15.9340, Classification Loss=1.7940, Prototype Loss=0.0000, Total Loss=17.7279, Prototype State={}
+Epoch 15: Regression Loss=7.7793, Classification Loss=1.1228, Prototype Loss=0.0000, Total Loss=8.9021, Prototype State={}
+Epoch 16: Regression Loss=8.6593, Classification Loss=1.0809, Prototype Loss=0.0000, Total Loss=9.7402, Prototype State={}
+Epoch 17: Regression Loss=8.7653, Classification Loss=1.3481, Prototype Loss=0.0000, Total Loss=10.1133, Prototype State={}
+Epoch 18: Regression Loss=7.8168, Classification Loss=1.2451, Prototype Loss=0.0000, Total Loss=9.0619, Prototype State={}
+Epoch 19: Regression Loss=7.5372, Classification Loss=1.1734, Prototype Loss=0.0000, Total Loss=8.7106, Prototype State={}
+Epoch 20: Regression Loss=6.0156, Classification Loss=1.1779, Prototype Loss=0.0000, Total Loss=7.1935, Prototype State={'foreground_gathered': 1214, 'background_gathered': 640, 'foreground_queue': 1214, 'background_queue': 640, 'prototype_ready': 1, 'prototype_initialized_now': 1, 'foreground_assignment_counts': [0, 0, 0, 0], 'background_assignment_counts': [0, 0, 0, 0, 0, 0, 0, 0], 'foreground_center_drift_cosine': 1.0, 'background_center_drift_cosine': 1.0, 'foreground_reinitialized': 0, 'background_reinitialized': 0, 'foreground_dead_ages': [0, 0, 0, 0], 'background_dead_ages': [0, 0, 0, 0, 0, 0, 0, 0], 'foreground_within_similarity_mean': 0.820411205291748, 'foreground_within_similarity_max': 0.9535213708877563, 'background_within_similarity_mean': 0.6259668469429016, 'background_within_similarity_max': 0.9369483590126038, 'foreground_background_similarity_mean': 0.6220673322677612, 'foreground_background_similarity_max': 0.99508136510849, 'foreground_center_checksum': -5.438511848449707, 'background_center_checksum': -7.9195170402526855}
+Epoch 21: Regression Loss=6.7986, Classification Loss=1.1290, Prototype Loss=0.1135, Total Loss=8.0411, Prototype State={'foreground_gathered': 1155, 'background_gathered': 640, 'foreground_queue': 2369, 'background_queue': 1280, 'prototype_ready': 1, 'prototype_initialized_now': 0, 'foreground_assignment_counts': [269, 70, 759, 57], 'background_assignment_counts': [332, 78, 27, 67, 41, 3, 52, 40], 'foreground_center_drift_cosine': 0.9999992847442627, 'background_center_drift_cosine': 0.9999989867210388, 'foreground_reinitialized': 0, 'background_reinitialized': 0, 'foreground_dead_ages': [0, 0, 0, 0], 'background_dead_ages': [0, 0, 0, 0, 0, 0, 0, 0], 'foreground_within_similarity_mean': 0.8207632899284363, 'foreground_within_similarity_max': 0.9536020755767822, 'background_within_similarity_mean': 0.626253068447113, 'background_within_similarity_max': 0.937122106552124, 'foreground_background_similarity_mean': 0.6222206354141235, 'foreground_background_similarity_max': 0.9949575662612915, 'foreground_center_checksum': -5.44251823425293, 'background_center_checksum': -7.927221298217773}

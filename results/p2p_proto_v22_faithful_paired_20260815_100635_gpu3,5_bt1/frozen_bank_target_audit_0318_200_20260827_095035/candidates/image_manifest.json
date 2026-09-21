@@ -1,0 +1,2445 @@
+{
+  "version": "frozen_teacher_candidate_audit_v1_20260816",
+  "checkpoint": "/home/data/yh_1/p2p-yfh/p2p-src-zzh-2025/pth/0318/best_model.pth",
+  "checkpoint_sha256": "b1918d9954418132d20777447d5025f88464cfafc9a47ce41ff548234fb1251a",
+  "checkpoint_epoch": 136,
+  "dataset": "/home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/datasets_frozen2025",
+  "phase": "test",
+  "sampling": {
+    "strategy": "slide_group_round_robin",
+    "requested_max_images": 200,
+    "selected_images": 200
+  },
+  "feature_source": "p2p_cls_features_before_final_classifier",
+  "candidate_type": {
+    "positive": 0,
+    "hard_negative": 1,
+    "random_negative": 2
+  },
+  "group_to_index": {
+    "2022-06-28_11_11_09.kfb": 0,
+    "2022-06-28_11_12_06.kfb": 1,
+    "2022-06-28_11_14_35.kfb": 2,
+    "2022-06-28_11_15_54.kfb": 3,
+    "2022-06-28_11_16_48.kfb": 4,
+    "2022-06-28_11_18_14.kfb": 5,
+    "2022-06-28_11_20_39.kfb": 6,
+    "2022-06-28_11_21_44.kfb": 7
+  },
+  "counts": {
+    "positive": 4986,
+    "hard_negative": 2672,
+    "random_negative": 2672
+  },
+  "images": [
+    {
+      "image_index": 0,
+      "image": "2022-06-28_11_11_09.kfb_1000.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 61,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 1,
+      "image": "2022-06-28_11_12_06.kfb_1046.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 2,
+      "image": "2022-06-28_11_14_35.kfb_351.jpg",
+      "group_index": 2,
+      "group": "2022-06-28_11_14_35.kfb",
+      "gt_points": 220,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 3,
+      "image": "2022-06-28_11_15_54.kfb_264.jpg",
+      "group_index": 3,
+      "group": "2022-06-28_11_15_54.kfb",
+      "gt_points": 418,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 4,
+      "image": "2022-06-28_11_16_48.kfb_350.jpg",
+      "group_index": 4,
+      "group": "2022-06-28_11_16_48.kfb",
+      "gt_points": 324,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 5,
+      "image": "2022-06-28_11_18_14.kfb_1002.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 53,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 6,
+      "image": "2022-06-28_11_20_39.kfb_1011.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 114,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 7,
+      "image": "2022-06-28_11_21_44.kfb_1002.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 115,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 8,
+      "image": "2022-06-28_11_11_09.kfb_1019.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 24,
+      "candidate_counts": {
+        "positive": 20,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 9,
+      "image": "2022-06-28_11_12_06.kfb_1047.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 10,
+      "image": "2022-06-28_11_14_35.kfb_428.jpg",
+      "group_index": 2,
+      "group": "2022-06-28_11_14_35.kfb",
+      "gt_points": 263,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 11,
+      "image": "2022-06-28_11_15_54.kfb_466.jpg",
+      "group_index": 3,
+      "group": "2022-06-28_11_15_54.kfb",
+      "gt_points": 235,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 12,
+      "image": "2022-06-28_11_18_14.kfb_1006.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 78,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 13,
+      "image": "2022-06-28_11_20_39.kfb_1012.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 140,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 14,
+      "image": "2022-06-28_11_21_44.kfb_1009.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 137,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 15,
+      "image": "2022-06-28_11_11_09.kfb_1022.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 13,
+      "candidate_counts": {
+        "positive": 12,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 16,
+      "image": "2022-06-28_11_12_06.kfb_1048.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 17,
+      "image": "2022-06-28_11_14_35.kfb_756.jpg",
+      "group_index": 2,
+      "group": "2022-06-28_11_14_35.kfb",
+      "gt_points": 122,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 18,
+      "image": "2022-06-28_11_18_14.kfb_1011.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 65,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 19,
+      "image": "2022-06-28_11_20_39.kfb_1014.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 84,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 20,
+      "image": "2022-06-28_11_21_44.kfb_102.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 186,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 21,
+      "image": "2022-06-28_11_11_09.kfb_1029.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 19,
+      "candidate_counts": {
+        "positive": 12,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 22,
+      "image": "2022-06-28_11_12_06.kfb_1049.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 23,
+      "image": "2022-06-28_11_18_14.kfb_1039.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 72,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 24,
+      "image": "2022-06-28_11_20_39.kfb_1015.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 183,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 25,
+      "image": "2022-06-28_11_21_44.kfb_1021.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 202,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 26,
+      "image": "2022-06-28_11_11_09.kfb_1052.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 142,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 27,
+      "image": "2022-06-28_11_12_06.kfb_1136.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 28,
+      "image": "2022-06-28_11_18_14.kfb_1046.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 22,
+      "candidate_counts": {
+        "positive": 20,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 29,
+      "image": "2022-06-28_11_20_39.kfb_1017.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 198,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 30,
+      "image": "2022-06-28_11_21_44.kfb_1023.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 211,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 31,
+      "image": "2022-06-28_11_11_09.kfb_1058.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 122,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 32,
+      "image": "2022-06-28_11_12_06.kfb_1226.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 655,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 33,
+      "image": "2022-06-28_11_18_14.kfb_1049.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 36,
+      "candidate_counts": {
+        "positive": 28,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 34,
+      "image": "2022-06-28_11_20_39.kfb_1020.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 251,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 35,
+      "image": "2022-06-28_11_21_44.kfb_1036.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 325,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 36,
+      "image": "2022-06-28_11_11_09.kfb_1059.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 174,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 37,
+      "image": "2022-06-28_11_12_06.kfb_1228.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 38,
+      "image": "2022-06-28_11_18_14.kfb_1052.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 44,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 39,
+      "image": "2022-06-28_11_20_39.kfb_1022.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 181,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 40,
+      "image": "2022-06-28_11_21_44.kfb_105.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 343,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 41,
+      "image": "2022-06-28_11_11_09.kfb_1063.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 80,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 42,
+      "image": "2022-06-28_11_12_06.kfb_1274.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 111,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 43,
+      "image": "2022-06-28_11_18_14.kfb_1080.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 133,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 44,
+      "image": "2022-06-28_11_20_39.kfb_1027.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 407,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 45,
+      "image": "2022-06-28_11_21_44.kfb_1053.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 239,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 46,
+      "image": "2022-06-28_11_11_09.kfb_1064.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 77,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 47,
+      "image": "2022-06-28_11_12_06.kfb_1315.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 358,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 48,
+      "image": "2022-06-28_11_18_14.kfb_1084.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 160,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 49,
+      "image": "2022-06-28_11_20_39.kfb_1029.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 349,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 50,
+      "image": "2022-06-28_11_21_44.kfb_106.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 259,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 51,
+      "image": "2022-06-28_11_11_09.kfb_1092.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 9,
+      "candidate_counts": {
+        "positive": 8,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 52,
+      "image": "2022-06-28_11_12_06.kfb_1363.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 53,
+      "image": "2022-06-28_11_18_14.kfb_1086.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 88,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 54,
+      "image": "2022-06-28_11_20_39.kfb_1034.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 163,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 55,
+      "image": "2022-06-28_11_21_44.kfb_1062.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 136,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 56,
+      "image": "2022-06-28_11_11_09.kfb_1120.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 25,
+      "candidate_counts": {
+        "positive": 23,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 57,
+      "image": "2022-06-28_11_12_06.kfb_1454.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 132,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 58,
+      "image": "2022-06-28_11_18_14.kfb_1087.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 99,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 59,
+      "image": "2022-06-28_11_20_39.kfb_1035.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 148,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 60,
+      "image": "2022-06-28_11_21_44.kfb_1063.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 172,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 61,
+      "image": "2022-06-28_11_11_09.kfb_1123.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 114,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 62,
+      "image": "2022-06-28_11_12_06.kfb_1455.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 63,
+      "image": "2022-06-28_11_18_14.kfb_1089.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 18,
+      "candidate_counts": {
+        "positive": 16,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 64,
+      "image": "2022-06-28_11_20_39.kfb_1039.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 169,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 65,
+      "image": "2022-06-28_11_21_44.kfb_1066.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 159,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 66,
+      "image": "2022-06-28_11_11_09.kfb_1127.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 81,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 67,
+      "image": "2022-06-28_11_12_06.kfb_1496.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 68,
+      "image": "2022-06-28_11_18_14.kfb_1092.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 20,
+      "candidate_counts": {
+        "positive": 19,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 69,
+      "image": "2022-06-28_11_20_39.kfb_1045.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 435,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 70,
+      "image": "2022-06-28_11_21_44.kfb_1068.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 96,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 71,
+      "image": "2022-06-28_11_11_09.kfb_1129.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 137,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 72,
+      "image": "2022-06-28_11_12_06.kfb_1544.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 73,
+      "image": "2022-06-28_11_18_14.kfb_1124.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 15,
+      "candidate_counts": {
+        "positive": 14,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 74,
+      "image": "2022-06-28_11_20_39.kfb_1046.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 163,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 75,
+      "image": "2022-06-28_11_21_44.kfb_1074.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 376,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 76,
+      "image": "2022-06-28_11_11_09.kfb_1130.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 125,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 77,
+      "image": "2022-06-28_11_12_06.kfb_1546.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 194,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 78,
+      "image": "2022-06-28_11_18_14.kfb_1130.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 6,
+      "candidate_counts": {
+        "positive": 6,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 79,
+      "image": "2022-06-28_11_20_39.kfb_1052.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 139,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 80,
+      "image": "2022-06-28_11_21_44.kfb_1077.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 599,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 81,
+      "image": "2022-06-28_11_11_09.kfb_1131.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 61,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 82,
+      "image": "2022-06-28_11_12_06.kfb_1724.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 83,
+      "image": "2022-06-28_11_18_14.kfb_1132.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 80,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 84,
+      "image": "2022-06-28_11_20_39.kfb_1054.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 298,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 85,
+      "image": "2022-06-28_11_21_44.kfb_1079.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 150,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 86,
+      "image": "2022-06-28_11_11_09.kfb_1133.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 55,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 87,
+      "image": "2022-06-28_11_12_06.kfb_1763.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 88,
+      "image": "2022-06-28_11_18_14.kfb_1134.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 38,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 89,
+      "image": "2022-06-28_11_20_39.kfb_1057.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 289,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 90,
+      "image": "2022-06-28_11_21_44.kfb_1080.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 141,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 91,
+      "image": "2022-06-28_11_11_09.kfb_1136.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 34,
+      "candidate_counts": {
+        "positive": 28,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 92,
+      "image": "2022-06-28_11_12_06.kfb_1813.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 93,
+      "image": "2022-06-28_11_18_14.kfb_1161.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 23,
+      "candidate_counts": {
+        "positive": 20,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 94,
+      "image": "2022-06-28_11_20_39.kfb_1062.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 49,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 95,
+      "image": "2022-06-28_11_21_44.kfb_1081.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 168,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 96,
+      "image": "2022-06-28_11_11_09.kfb_1137.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 23,
+      "candidate_counts": {
+        "positive": 17,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 97,
+      "image": "2022-06-28_11_12_06.kfb_1814.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 98,
+      "image": "2022-06-28_11_18_14.kfb_1163.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 34,
+      "candidate_counts": {
+        "positive": 31,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 99,
+      "image": "2022-06-28_11_20_39.kfb_1071.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 159,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 100,
+      "image": "2022-06-28_11_21_44.kfb_1087.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 212,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 101,
+      "image": "2022-06-28_11_11_09.kfb_1193.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 91,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 102,
+      "image": "2022-06-28_11_12_06.kfb_1851.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 103,
+      "image": "2022-06-28_11_18_14.kfb_1167.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 75,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 104,
+      "image": "2022-06-28_11_20_39.kfb_1073.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 163,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 105,
+      "image": "2022-06-28_11_21_44.kfb_1088.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 290,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 106,
+      "image": "2022-06-28_11_11_09.kfb_1195.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 59,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 107,
+      "image": "2022-06-28_11_12_06.kfb_1853.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 465,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 108,
+      "image": "2022-06-28_11_18_14.kfb_1204.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 64,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 109,
+      "image": "2022-06-28_11_20_39.kfb_1085.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 72,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 110,
+      "image": "2022-06-28_11_21_44.kfb_1100.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 193,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 111,
+      "image": "2022-06-28_11_11_09.kfb_1196.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 73,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 112,
+      "image": "2022-06-28_11_12_06.kfb_1855.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 113,
+      "image": "2022-06-28_11_18_14.kfb_1209.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 55,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 114,
+      "image": "2022-06-28_11_20_39.kfb_1087.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 50,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 115,
+      "image": "2022-06-28_11_21_44.kfb_1101.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 266,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 116,
+      "image": "2022-06-28_11_11_09.kfb_1213.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 14,
+      "candidate_counts": {
+        "positive": 13,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 117,
+      "image": "2022-06-28_11_12_06.kfb_1856.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 118,
+      "image": "2022-06-28_11_18_14.kfb_1211.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 48,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 119,
+      "image": "2022-06-28_11_20_39.kfb_1088.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 18,
+      "candidate_counts": {
+        "positive": 17,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 120,
+      "image": "2022-06-28_11_21_44.kfb_1103.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 139,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 121,
+      "image": "2022-06-28_11_11_09.kfb_1227.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 31,
+      "candidate_counts": {
+        "positive": 26,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 122,
+      "image": "2022-06-28_11_12_06.kfb_1900.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 123,
+      "image": "2022-06-28_11_18_14.kfb_1212.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 18,
+      "candidate_counts": {
+        "positive": 17,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 124,
+      "image": "2022-06-28_11_20_39.kfb_1090.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 138,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 125,
+      "image": "2022-06-28_11_21_44.kfb_1104.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 105,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 126,
+      "image": "2022-06-28_11_11_09.kfb_1257.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 214,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 127,
+      "image": "2022-06-28_11_12_06.kfb_2075.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 128,
+      "image": "2022-06-28_11_18_14.kfb_1213.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 36,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 129,
+      "image": "2022-06-28_11_20_39.kfb_1115.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 253,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 130,
+      "image": "2022-06-28_11_21_44.kfb_1106.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 168,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 131,
+      "image": "2022-06-28_11_11_09.kfb_1264.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 329,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 132,
+      "image": "2022-06-28_11_12_06.kfb_2307.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 133,
+      "image": "2022-06-28_11_18_14.kfb_1215.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 33,
+      "candidate_counts": {
+        "positive": 29,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 134,
+      "image": "2022-06-28_11_20_39.kfb_1116.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 151,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 135,
+      "image": "2022-06-28_11_21_44.kfb_1110.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 220,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 136,
+      "image": "2022-06-28_11_11_09.kfb_1267.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 181,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 137,
+      "image": "2022-06-28_11_12_06.kfb_2396.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 138,
+      "image": "2022-06-28_11_18_14.kfb_1216.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 20,
+      "candidate_counts": {
+        "positive": 19,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 139,
+      "image": "2022-06-28_11_20_39.kfb_1117.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 188,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 140,
+      "image": "2022-06-28_11_21_44.kfb_1116.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 278,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 141,
+      "image": "2022-06-28_11_11_09.kfb_1270.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 68,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 142,
+      "image": "2022-06-28_11_12_06.kfb_2398.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 143,
+      "image": "2022-06-28_11_18_14.kfb_1256.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 61,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 144,
+      "image": "2022-06-28_11_20_39.kfb_1118.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 231,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 145,
+      "image": "2022-06-28_11_21_44.kfb_1121.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 406,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 146,
+      "image": "2022-06-28_11_11_09.kfb_1271.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 152,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 147,
+      "image": "2022-06-28_11_12_06.kfb_2482.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 148,
+      "image": "2022-06-28_11_18_14.kfb_1257.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 54,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 149,
+      "image": "2022-06-28_11_20_39.kfb_1119.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 175,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 150,
+      "image": "2022-06-28_11_21_44.kfb_1125.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 350,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 151,
+      "image": "2022-06-28_11_11_09.kfb_1272.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 161,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 152,
+      "image": "2022-06-28_11_12_06.kfb_2483.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 153,
+      "image": "2022-06-28_11_18_14.kfb_1286.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 16,
+      "candidate_counts": {
+        "positive": 15,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 154,
+      "image": "2022-06-28_11_20_39.kfb_1120.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 225,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 155,
+      "image": "2022-06-28_11_21_44.kfb_1131.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 264,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 156,
+      "image": "2022-06-28_11_11_09.kfb_1275.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 59,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 157,
+      "image": "2022-06-28_11_12_06.kfb_2484.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 158,
+      "image": "2022-06-28_11_18_14.kfb_1288.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 27,
+      "candidate_counts": {
+        "positive": 26,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 159,
+      "image": "2022-06-28_11_20_39.kfb_1124.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 306,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 160,
+      "image": "2022-06-28_11_21_44.kfb_1138.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 86,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 161,
+      "image": "2022-06-28_11_11_09.kfb_1283.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 190,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 162,
+      "image": "2022-06-28_11_12_06.kfb_2487.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 163,
+      "image": "2022-06-28_11_18_14.kfb_1290.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 21,
+      "candidate_counts": {
+        "positive": 20,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 164,
+      "image": "2022-06-28_11_20_39.kfb_1133.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 79,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 165,
+      "image": "2022-06-28_11_21_44.kfb_1140.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 193,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 166,
+      "image": "2022-06-28_11_11_09.kfb_1284.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 165,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 167,
+      "image": "2022-06-28_11_12_06.kfb_2488.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 168,
+      "image": "2022-06-28_11_18_14.kfb_1296.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 106,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 169,
+      "image": "2022-06-28_11_20_39.kfb_1137.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 281,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 170,
+      "image": "2022-06-28_11_21_44.kfb_1147.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 186,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 171,
+      "image": "2022-06-28_11_11_09.kfb_1296.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 20,
+      "candidate_counts": {
+        "positive": 18,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 172,
+      "image": "2022-06-28_11_12_06.kfb_2489.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 173,
+      "image": "2022-06-28_11_18_14.kfb_1298.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 31,
+      "candidate_counts": {
+        "positive": 27,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 174,
+      "image": "2022-06-28_11_20_39.kfb_1139.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 276,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 175,
+      "image": "2022-06-28_11_21_44.kfb_1149.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 386,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 176,
+      "image": "2022-06-28_11_11_09.kfb_1328.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 291,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 177,
+      "image": "2022-06-28_11_12_06.kfb_2490.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 178,
+      "image": "2022-06-28_11_18_14.kfb_132.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 199,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 179,
+      "image": "2022-06-28_11_20_39.kfb_1140.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 299,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 180,
+      "image": "2022-06-28_11_21_44.kfb_1150.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 441,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 181,
+      "image": "2022-06-28_11_11_09.kfb_1355.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 60,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 182,
+      "image": "2022-06-28_11_12_06.kfb_2491.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 183,
+      "image": "2022-06-28_11_18_14.kfb_1325.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 35,
+      "candidate_counts": {
+        "positive": 28,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 184,
+      "image": "2022-06-28_11_20_39.kfb_1141.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 282,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 185,
+      "image": "2022-06-28_11_21_44.kfb_1153.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 466,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 186,
+      "image": "2022-06-28_11_11_09.kfb_1399.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 116,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 187,
+      "image": "2022-06-28_11_12_06.kfb_2573.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 188,
+      "image": "2022-06-28_11_18_14.kfb_1326.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 132,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 189,
+      "image": "2022-06-28_11_20_39.kfb_1142.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 194,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 190,
+      "image": "2022-06-28_11_21_44.kfb_1154.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 293,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 191,
+      "image": "2022-06-28_11_11_09.kfb_1401.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 114,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 192,
+      "image": "2022-06-28_11_12_06.kfb_2574.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 193,
+      "image": "2022-06-28_11_18_14.kfb_1327.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 99,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 194,
+      "image": "2022-06-28_11_20_39.kfb_1144.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 133,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 195,
+      "image": "2022-06-28_11_21_44.kfb_1158.jpg",
+      "group_index": 7,
+      "group": "2022-06-28_11_21_44.kfb",
+      "gt_points": 160,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 196,
+      "image": "2022-06-28_11_11_09.kfb_1402.jpg",
+      "group_index": 0,
+      "group": "2022-06-28_11_11_09.kfb",
+      "gt_points": 182,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 197,
+      "image": "2022-06-28_11_12_06.kfb_2575.jpg",
+      "group_index": 1,
+      "group": "2022-06-28_11_12_06.kfb",
+      "gt_points": 0,
+      "candidate_counts": {
+        "positive": 0,
+        "hard_negative": 0,
+        "random_negative": 0
+      }
+    },
+    {
+      "image_index": 198,
+      "image": "2022-06-28_11_18_14.kfb_1337.jpg",
+      "group_index": 5,
+      "group": "2022-06-28_11_18_14.kfb",
+      "gt_points": 10,
+      "candidate_counts": {
+        "positive": 9,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    },
+    {
+      "image_index": 199,
+      "image": "2022-06-28_11_20_39.kfb_1158.jpg",
+      "group_index": 6,
+      "group": "2022-06-28_11_20_39.kfb",
+      "gt_points": 66,
+      "candidate_counts": {
+        "positive": 32,
+        "hard_negative": 16,
+        "random_negative": 16
+      }
+    }
+  ],
+  "selection": {
+    "positive_radius": 10.0,
+    "background_radius": 30.0,
+    "max_positive_per_image": 32,
+    "max_hard_negative_per_image": 16,
+    "max_random_negative_per_image": 16
+  },
+  "load_missing_keys": [],
+  "load_unexpected_keys": []
+}

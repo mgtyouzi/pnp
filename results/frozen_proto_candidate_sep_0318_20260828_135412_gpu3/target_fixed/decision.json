@@ -1,0 +1,18 @@
+{
+  "status": "stop_current_prototype_bank",
+  "action": "stop_current_prototype_bank",
+  "diagnostic_only": true,
+  "prototype_auc_tp_vs_background_far": 0.5273720406213322,
+  "raw_auc_tp_vs_background_far": 0.713235477705195,
+  "joint_auc_tp_vs_background_far": 0.7202343037624657,
+  "joint_auc_gain_over_raw": 0.006998826057270646,
+  "target_labels_used_for_selection": false,
+  "fixed_threshold_metrics": {
+    "source_fixed_threshold": -0.4893424250753651,
+    "sensitivity": 0.669583704143182,
+    "specificity": 0.6575422588758262,
+    "balanced_accuracy": 0.6635629815095041,
+    "positive_count": 20226,
+    "negative_count": 17097
+  }
+}

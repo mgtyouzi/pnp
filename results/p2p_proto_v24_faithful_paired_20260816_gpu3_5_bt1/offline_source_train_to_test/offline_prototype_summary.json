@@ -1,0 +1,130 @@
+{
+  "checkpoint": "/home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_proto_v24_faithful_paired_20260816_gpu3_5_bt1/prototype_v24/recent_model.pth",
+  "checkpoint_epoch": 3,
+  "dataset": "/home/data/yh_1/SET_3/p2p-src-zzh-2025/datasets/石蜡-2025",
+  "fit_images": 300,
+  "eval_images": 200,
+  "fit_foreground": 18227,
+  "fit_background": 4800,
+  "eval_foreground": 12230,
+  "eval_background": 3200,
+  "feature_spaces": [
+    "raw",
+    "projected"
+  ],
+  "selection_feature_space": "projected",
+  "configured_feature_space_comparison": {
+    "k_fg": 2,
+    "k_bg": 4,
+    "available_spaces": [
+      "projected",
+      "raw"
+    ],
+    "valid": true,
+    "raw": {
+      "balanced_accuracy": 0.6272278720359771,
+      "auc": 0.6674744991823384,
+      "foreground_recall": 0.4088307440719542,
+      "hard_background_recall": 0.8456249833106995,
+      "random_background_recall": null,
+      "center_cross_similarity_max": 0.9356338381767273
+    },
+    "projected": {
+      "balanced_accuracy": 0.659281096688471,
+      "auc": 0.6980802330335241,
+      "foreground_recall": 0.6326246933769419,
+      "hard_background_recall": 0.6859374642372131,
+      "random_background_recall": null,
+      "center_cross_similarity_max": 0.9983274936676025
+    },
+    "projected_minus_raw": {
+      "balanced_accuracy": 0.03205322465249394,
+      "auc": 0.0306057338511857,
+      "foreground_recall": 0.22379394930498775,
+      "hard_background_recall": -0.15968751907348633,
+      "random_background_recall": null,
+      "center_cross_similarity_max": 0.06269365549087524
+    }
+  },
+  "sample_policy": {
+    "positive": "hungarian_matched_score_quantiles",
+    "ignored": "unmatched_predicted_or_anchor_distance_below_radius",
+    "hard_background": "top_raw_foreground_score_among_far_unmatched",
+    "random_background": "seeded_random_sample_from_remaining_far_unmatched",
+    "background_radius": 30.0,
+    "max_positive_per_image": 64,
+    "max_background_per_image": 16,
+    "max_hard_background_per_image": 16,
+    "max_random_background_per_image": 0
+  },
+  "raw_classifier": {
+    "precision": 0.7628009095899004,
+    "foreground_recall": 0.7954210956663941,
+    "background_recall": 0.0546875,
+    "balanced_accuracy": 0.42505429783319704,
+    "f1": 0.7787695633030461,
+    "auc": 0.5328021514717907,
+    "tp": 9728,
+    "fp": 3025,
+    "tn": 175,
+    "fn": 2502
+  },
+  "prototype_results": [
+    {
+      "precision": 0.9100837277029487,
+      "foreground_recall": 0.4088307440719542,
+      "background_recall": 0.845625,
+      "balanced_accuracy": 0.6272278720359771,
+      "f1": 0.564206725344166,
+      "auc": 0.6674744991823384,
+      "tp": 5000,
+      "fp": 494,
+      "tn": 2706,
+      "fn": 7230,
+      "k_fg": 2,
+      "k_bg": 4,
+      "feature_space": "raw",
+      "foreground_margin_mean": -0.048252493143081665,
+      "background_margin_mean": -0.19615291059017181,
+      "foreground_intra_distance": 0.8769806027412415,
+      "background_intra_distance": 0.7798536419868469,
+      "center_cross_similarity_max": 0.9356338381767273,
+      "hard_background_recall": 0.8456249833106995,
+      "random_background_recall": null
+    },
+    {
+      "precision": 0.8850377487989018,
+      "foreground_recall": 0.6326246933769419,
+      "background_recall": 0.6859375,
+      "balanced_accuracy": 0.659281096688471,
+      "f1": 0.7378409307648293,
+      "auc": 0.6980802330335241,
+      "tp": 7737,
+      "fp": 1005,
+      "tn": 2195,
+      "fn": 4493,
+      "k_fg": 2,
+      "k_bg": 4,
+      "feature_space": "projected",
+      "foreground_margin_mean": -0.01768908090889454,
+      "background_margin_mean": -0.07312537729740143,
+      "foreground_intra_distance": 0.44759485125541687,
+      "background_intra_distance": 0.6999434232711792,
+      "center_cross_similarity_max": 0.9983274936676025,
+      "hard_background_recall": 0.6859374642372131,
+      "random_background_recall": null
+    }
+  ],
+  "best_k_pair_from_source_only": {
+    "foreground": 2,
+    "background": 4
+  },
+  "recommended_k_pair_from_source_only": {
+    "foreground": 2,
+    "background": 4,
+    "selection_rule": "smallest bank within 0.005 balanced accuracy of source best"
+  },
+  "screening_pass": false,
+  "load_missing_keys": [],
+  "load_unexpected_keys": []
+}

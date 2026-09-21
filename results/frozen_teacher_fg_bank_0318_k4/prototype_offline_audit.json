@@ -1,0 +1,85 @@
+{
+  "version": "ft_fgproto_v1_20260816",
+  "bank_id": "5e651363331c1fb981953ba6356413015eb9fa44a316a9f4f074909af822dc8b",
+  "gate_pass": false,
+  "checkpoint": "/home/data/yh_1/p2p-yfh/p2p-src-zzh-2025/pth/0318/best_model.pth",
+  "checkpoint_sha256": "b1918d9954418132d20777447d5025f88464cfafc9a47ce41ff548234fb1251a",
+  "checkpoint_epoch": 136,
+  "dataset": "/home/data/yh_1/SET_3/p2p-src-zzh-2025/datasets/石蜡-2025",
+  "feature_source": "p2p_cls_features_before_final_classifier",
+  "teacher_frozen": true,
+  "teacher_trainable_parameters": 0,
+  "support_fraction": 0.8,
+  "support_images": 2032,
+  "calibration_images": 11,
+  "support_groups": 6,
+  "calibration_groups": 1,
+  "support_positive": 122248,
+  "support_hard_negative": 32496,
+  "support_random_negative": 32496,
+  "calibration_positive": 704,
+  "calibration_hard_negative": 176,
+  "calibration_random_negative": 176,
+  "fixed_negative_bank": 8192,
+  "fixed_negative_hard": 4096,
+  "fixed_negative_random": 4096,
+  "cluster_shares": [
+    0.24389764666557312,
+    0.32372719049453735,
+    0.1475607007741928,
+    0.2848144769668579
+  ],
+  "prototype_pairwise_cosine": [
+    [
+      0.9999578595161438,
+      0.5561565160751343,
+      -0.3202192783355713,
+      0.7230463027954102
+    ],
+    [
+      0.5561565160751343,
+      0.9999678134918213,
+      -0.5197305679321289,
+      0.7774438858032227
+    ],
+    [
+      -0.3202192783355713,
+      -0.5197305679321289,
+      1.000140905380249,
+      -0.6074262857437134
+    ],
+    [
+      0.7230463027954102,
+      0.7774438858032227,
+      -0.6074262857437134,
+      0.9999993443489075
+    ]
+  ],
+  "metrics": {
+    "auc": 0.5497481921487604,
+    "balanced_accuracy": 0.5759943181818182,
+    "threshold": 0.4388044875860214,
+    "tpr": 0.6463068181818182,
+    "tnr": 0.5056818181818182,
+    "positive_similarity_mean": 0.5115388035774231,
+    "positive_similarity_p10": 0.2731723189353943,
+    "hard_negative_similarity_mean": 0.5922232270240784,
+    "hard_negative_similarity_p90": 0.7079212665557861,
+    "random_negative_similarity_mean": 0.3760967254638672,
+    "tpr_at_fpr_0.10": 0.203125,
+    "tpr_at_fpr_0.20": 0.2997159090909091
+  },
+  "gates": {
+    "auc_min": 0.7,
+    "balanced_accuracy_min": 0.65,
+    "cluster_share_min": 0.05
+  },
+  "sample_policy": {
+    "positive": "hungarian_match_and_distance_le_10_without_score_filter",
+    "hard_negative": "far_unmatched_top_teacher_cell_score_negative_only",
+    "random_negative": "far_unmatched_deterministic_random_negative_only",
+    "online_negative_can_update_bank": false
+  },
+  "load_missing_keys": [],
+  "load_unexpected_keys": []
+}

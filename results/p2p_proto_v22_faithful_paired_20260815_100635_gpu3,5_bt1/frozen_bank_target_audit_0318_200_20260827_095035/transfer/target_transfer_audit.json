@@ -1,0 +1,83 @@
+{
+  "version": "frozen_supervised_bank_transfer_v1_20260827",
+  "bank": "/home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/frozen_bank/frozen_supervised_metric_bank.pth",
+  "features": "/home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/frozen_bank_target_audit_0318_200_20260827_095035/candidates/candidate_features.npz",
+  "candidates": 10330,
+  "prototype_counts": [
+    4,
+    4,
+    2
+  ],
+  "bank_id": "supervised-metric-0efa7de19fdf32b7",
+  "source_reference": {
+    "gate_pass": true,
+    "failures": [],
+    "macro_hard_auc": 0.7556193146451905,
+    "min_hard_auc": 0.7080536912751678,
+    "macro_random_auc": 0.9613926599714723,
+    "teacher_macro_hard_auc": 0.5105913736197262,
+    "ridge_macro_hard_auc": 0.7556193146451905,
+    "hard_auc_gain_over_teacher": 0.24502794102546432,
+    "hard_auc_gap_to_ridge": 0.0,
+    "gates": {
+      "macro_hard_auc": 0.63,
+      "min_hard_auc": 0.55,
+      "macro_random_auc": 0.95,
+      "hard_auc_gain_over_teacher": 0.05
+    }
+  },
+  "target_separation": {
+    "raw_p2p": {
+      "hard_negative": {
+        "global_auc": 0.33780562371046113,
+        "macro_group_auc": 0.3987233469068806,
+        "min_group_auc": 0.24280224744632964,
+        "valid_groups": 8,
+        "positive_count": 4986,
+        "negative_count": 2672
+      },
+      "random_negative": {
+        "global_auc": 0.9941717797857954,
+        "macro_group_auc": 0.9947092289480655,
+        "min_group_auc": 0.9858940972222222,
+        "valid_groups": 8,
+        "positive_count": 4986,
+        "negative_count": 2672
+      }
+    },
+    "frozen_prototype": {
+      "hard_negative": {
+        "global_auc": 0.6381630541564284,
+        "macro_group_auc": 0.7035270379258793,
+        "min_group_auc": 0.5841686970646247,
+        "valid_groups": 8,
+        "positive_count": 4986,
+        "negative_count": 2672
+      },
+      "random_negative": {
+        "global_auc": 0.9615109432158547,
+        "macro_group_auc": 0.9689493779085347,
+        "min_group_auc": 0.9386476594505792,
+        "valid_groups": 8,
+        "positive_count": 4986,
+        "negative_count": 2672
+      }
+    }
+  },
+  "hard_auc_gain_over_raw_p2p": 0.30480369101899873,
+  "decision": {
+    "status": "weak",
+    "action": "rebuild_bank_for_cross_style_invariance_before_training",
+    "pass_checks": {
+      "hard_auc_at_least_0p70": true,
+      "min_group_auc_at_least_0p60": false,
+      "random_auc_at_least_0p90": true,
+      "gain_over_teacher_at_least_0p02": true
+    },
+    "weak_checks": {
+      "hard_auc_at_least_0p62": true,
+      "min_group_auc_at_least_0p52": true,
+      "random_auc_at_least_0p85": true
+    }
+  }
+}

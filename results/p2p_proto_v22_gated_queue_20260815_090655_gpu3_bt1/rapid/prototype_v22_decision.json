@@ -1,0 +1,72 @@
+{
+  "mode": "rapid",
+  "all_gates_pass": false,
+  "ready_for_long_run": false,
+  "next_action": "stop_and_fix_failed_mechanism",
+  "failed_gates": [
+    "prototype_mechanism_ready",
+    "paired_optimization_ready",
+    "projected_foreground_recall_at_least_0p60"
+  ],
+  "gates": {
+    "prototype_mechanism_ready": false,
+    "paired_attribution_valid": true,
+    "paired_optimization_ready": false,
+    "configured_raw_projected_comparison_valid": true,
+    "projected_balanced_accuracy_at_least_0p65": true,
+    "projected_foreground_recall_at_least_0p60": false,
+    "projected_hard_background_recall_at_least_0p60": true,
+    "projected_balanced_accuracy_not_worse_than_raw": true,
+    "faithful_updates_use_full_epoch": true
+  },
+  "mechanism_gates": {
+    "positive_correct_at_least_0p75": true,
+    "hard_background_correct_at_least_0p50": false,
+    "hard_background_drop_no_more_than_0p10": false,
+    "foreground_effective_at_least_70pct": true,
+    "background_effective_at_least_70pct": false,
+    "cross_similarity_mean_at_most_0p75": false,
+    "fresh_cross_similarity_mean_at_most_0p75": false,
+    "projector_probe_drift_at_least_0p90": true,
+    "ema_targets_tracked_at_least_0p90": false,
+    "gradient_ratio_in_0p02_to_0p30": true,
+    "gradient_cosine_at_least_minus_0p10": true
+  },
+  "optimization_gates": {
+    "classification_relative_delta_within_limit": false,
+    "regression_relative_delta_within_limit": true
+  },
+  "configured_feature_space_comparison": {
+    "k_fg": 4,
+    "k_bg": 8,
+    "available_spaces": [
+      "projected",
+      "raw"
+    ],
+    "valid": true,
+    "raw": {
+      "balanced_accuracy": 0.635557386177865,
+      "auc": 0.7912578929622365,
+      "foreground_recall": 0.4033022723557299,
+      "hard_background_recall": 0.7493749856948853,
+      "random_background_recall": 0.9862499833106995,
+      "center_cross_similarity_max": 0.9878636598587036
+    },
+    "projected": {
+      "balanced_accuracy": 0.6772469909677947,
+      "auc": 0.8190796397335296,
+      "foreground_recall": 0.4885564819355893,
+      "hard_background_recall": 0.7549999952316284,
+      "random_background_recall": 0.9768750071525574,
+      "center_cross_similarity_max": 0.9971206188201904
+    },
+    "projected_minus_raw": {
+      "balanced_accuracy": 0.04168960478992978,
+      "auc": 0.02782174677129312,
+      "foreground_recall": 0.08525420957985941,
+      "hard_background_recall": 0.005625009536743164,
+      "random_background_recall": -0.00937497615814209,
+      "center_cross_similarity_max": 0.009256958961486816
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "mode": "faithful",
+  "all_gates_pass": false,
+  "ready_for_long_run": false,
+  "next_action": "stop_and_fix_failed_mechanism",
+  "failed_gates": [
+    "prototype_mechanism_ready",
+    "projected_balanced_accuracy_at_least_0p65",
+    "projected_foreground_recall_at_least_0p60",
+    "projected_balanced_accuracy_not_worse_than_raw"
+  ],
+  "gates": {
+    "prototype_mechanism_ready": false,
+    "paired_attribution_valid": true,
+    "paired_optimization_ready": true,
+    "configured_raw_projected_comparison_valid": true,
+    "projected_balanced_accuracy_at_least_0p65": false,
+    "projected_foreground_recall_at_least_0p60": false,
+    "projected_hard_background_recall_at_least_0p60": true,
+    "projected_balanced_accuracy_not_worse_than_raw": false,
+    "faithful_updates_use_full_epoch": true
+  },
+  "mechanism_gates": {
+    "positive_correct_at_least_0p75": true,
+    "hard_background_correct_at_least_0p50": false,
+    "hard_background_drop_no_more_than_0p10": true,
+    "foreground_effective_at_least_70pct": false,
+    "background_effective_at_least_70pct": false,
+    "cross_similarity_mean_at_most_0p75": false,
+    "fresh_cross_similarity_mean_at_most_0p75": true,
+    "projector_probe_drift_at_least_0p90": true,
+    "ema_targets_tracked_at_least_0p90": false,
+    "gradient_ratio_in_0p02_to_0p30": false,
+    "gradient_cosine_at_least_minus_0p10": true
+  },
+  "optimization_gates": {
+    "classification_relative_delta_within_limit": true,
+    "regression_relative_delta_within_limit": true
+  },
+  "configured_feature_space_comparison": {
+    "k_fg": 4,
+    "k_bg": 8,
+    "available_spaces": [
+      "projected",
+      "raw"
+    ],
+    "valid": true,
+    "raw": {
+      "balanced_accuracy": 0.6616466297015535,
+      "auc": 0.804360971995094,
+      "foreground_recall": 0.4721995094031071,
+      "hard_background_recall": 0.7137500047683716,
+      "random_background_recall": 0.9884374737739563,
+      "center_cross_similarity_max": 0.9964356422424316
+    },
+    "projected": {
+      "balanced_accuracy": 0.64421178710139,
+      "auc": 0.8146492487735078,
+      "foreground_recall": 0.40670482420278004,
+      "hard_background_recall": 0.7874999642372131,
+      "random_background_recall": 0.9759374856948853,
+      "center_cross_similarity_max": 0.9960929751396179
+    },
+    "projected_minus_raw": {
+      "balanced_accuracy": -0.01743484260016348,
+      "auc": 0.010288276778413707,
+      "foreground_recall": -0.06549468520032709,
+      "hard_background_recall": 0.07374995946884155,
+      "random_background_recall": -0.012499988079071045,
+      "center_cross_similarity_max": -0.0003426671028137207
+    }
+  }
+}

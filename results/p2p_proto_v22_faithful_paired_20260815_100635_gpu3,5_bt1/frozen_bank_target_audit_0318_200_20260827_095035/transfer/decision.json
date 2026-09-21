@@ -1,0 +1,15 @@
+{
+  "status": "weak",
+  "action": "rebuild_bank_for_cross_style_invariance_before_training",
+  "pass_checks": {
+    "hard_auc_at_least_0p70": true,
+    "min_group_auc_at_least_0p60": false,
+    "random_auc_at_least_0p90": true,
+    "gain_over_teacher_at_least_0p02": true
+  },
+  "weak_checks": {
+    "hard_auc_at_least_0p62": true,
+    "min_group_auc_at_least_0p52": true,
+    "random_auc_at_least_0p85": true
+  }
+}

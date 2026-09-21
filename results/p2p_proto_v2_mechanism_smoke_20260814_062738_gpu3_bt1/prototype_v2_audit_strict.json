@@ -1,0 +1,48 @@
+{
+  "epochs_logged": [
+    20,
+    21
+  ],
+  "initialized_epochs": [
+    20
+  ],
+  "ready_epochs": [
+    20,
+    21
+  ],
+  "mean_positive_per_step": 134.125,
+  "mean_rejected_positive_per_step": 32.0,
+  "mean_hard_background_per_step": 16.0,
+  "mean_random_background_per_step": 16.0,
+  "mean_prototype_loss": 0.28379218131303785,
+  "mean_gradient_proto_cls_ratio": 0.014419572288170457,
+  "mean_gradient_cosine": -0.01672723485971801,
+  "minimum_foreground_drift_cosine_after_init": 0.9999992847442627,
+  "minimum_background_drift_cosine_after_init": 0.9999989867210388,
+  "mean_foreground_background_similarity": 0.6221439838409424,
+  "max_foreground_background_similarity": 0.99508136510849,
+  "final_foreground_background_similarity_mean": 0.6222206354141235,
+  "final_foreground_background_similarity_max": 0.9949575662612915,
+  "final_positive_margin": 0.23877558959648013,
+  "final_background_margin": -0.6419972121715546,
+  "maximum_foreground_assignment_share": 0.6571428571428571,
+  "minimum_foreground_assignment_share": 0.04935064935064935,
+  "maximum_background_assignment_share": 0.51875,
+  "minimum_background_assignment_share": 0.0046875,
+  "final_foreground_assignment_max_share": 0.6571428571428571,
+  "final_foreground_assignment_min_share": 0.04935064935064935,
+  "final_background_assignment_max_share": 0.51875,
+  "final_background_assignment_min_share": 0.0046875,
+  "post_initialization_epochs": 1,
+  "failures": [],
+  "warnings": [
+    "only 1 post-initialization epoch(s) were observed; prototype separation and EMA stability are not yet established",
+    "at least one foreground/background prototype pair nearly overlaps in the final epoch (maximum cosine 0.9950)",
+    "foreground prototype occupancy is concentrated in the final epoch (maximum share 0.6571)",
+    "background prototype occupancy is concentrated in the final epoch (maximum share 0.5188)",
+    "a background prototype is nearly unused in the final epoch (minimum share 0.0047)",
+    "foreground prototype margin is weak (0.2388)",
+    "prototype gradient reaching shared P2P features is weak (0.0144 of classification gradient)"
+  ],
+  "status": "WARN"
+}

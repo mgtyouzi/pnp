@@ -1,0 +1,9 @@
+Training Log
+Epoch 0: Regression Loss=9.4357, Classification Loss=2.7741, Prototype Loss=0.0000, Total Loss=12.2098, Prototype State={}
+Epoch 1: Regression Loss=10.1566, Classification Loss=2.8172, Prototype Loss=0.0000, Total Loss=12.9738, Prototype State={}
+Epoch 2: Regression Loss=9.1188, Classification Loss=2.8062, Prototype Loss=0.0000, Total Loss=11.9250, Prototype State={}
+Epoch 3: Regression Loss=8.7244, Classification Loss=2.6032, Prototype Loss=0.0000, Total Loss=11.3276, Prototype State={}
+Epoch 4: Regression Loss=9.2672, Classification Loss=2.8233, Prototype Loss=0.0000, Total Loss=12.0905, Prototype State={}
+Epoch 5: Regression Loss=9.9178, Classification Loss=2.8347, Prototype Loss=0.0000, Total Loss=12.7525, Prototype State={}
+Epoch 6: Regression Loss=9.9761, Classification Loss=2.9699, Prototype Loss=0.0000, Total Loss=12.9460, Prototype State={}
+Epoch 7: Regression Loss=9.2609, Classification Loss=2.5766, Prototype Loss=0.0000, Total Loss=11.8375, Prototype State={}

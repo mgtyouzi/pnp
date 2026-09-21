@@ -1,0 +1,391 @@
+Training Log
+Epoch 0: Regression Loss=185.2478, Classification Loss=54.3451, Prototype Loss=0.0000, Total Loss=239.5929, Prototype State={}
+Epoch 1: Regression Loss=188.7842, Classification Loss=54.5747, Prototype Loss=0.0000, Total Loss=243.3590, Prototype State={}
+Epoch 2: Regression Loss=186.9690, Classification Loss=55.2435, Prototype Loss=0.0000, Total Loss=242.2126, Prototype State={}
+Epoch 3: Regression Loss=189.2778, Classification Loss=56.2376, Prototype Loss=0.0000, Total Loss=245.5153, Prototype State={}
+Epoch 4: Regression Loss=191.8100, Classification Loss=57.1181, Prototype Loss=0.0000, Total Loss=248.9281, Prototype State={}
+Epoch 5: Regression Loss=200.5194, Classification Loss=57.8191, Prototype Loss=0.0000, Total Loss=258.3385, Prototype State={}
+Epoch 6: Regression Loss=196.5435, Classification Loss=57.9738, Prototype Loss=0.0000, Total Loss=254.5173, Prototype State={}
+Epoch 7: Regression Loss=197.6492, Classification Loss=58.0480, Prototype Loss=0.0000, Total Loss=255.6971, Prototype State={}
+Epoch 8: Regression Loss=196.4349, Classification Loss=58.1006, Prototype Loss=0.0000, Total Loss=254.5355, Prototype State={}
+Epoch 9: Regression Loss=197.7024, Classification Loss=57.8323, Prototype Loss=0.0000, Total Loss=255.5347, Prototype State={}
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_10_20260816-213142.pth
+Epoch 10: Regression Loss=197.5399, Classification Loss=57.6638, Prototype Loss=0.0000, Total Loss=255.2037, Prototype State={}
+Epoch 11: Regression Loss=200.9538, Classification Loss=57.8032, Prototype Loss=0.0000, Total Loss=258.7570, Prototype State={}
+Epoch 12: Regression Loss=196.9797, Classification Loss=57.5697, Prototype Loss=0.0000, Total Loss=254.5494, Prototype State={}
+Epoch 13: Regression Loss=196.0971, Classification Loss=57.5619, Prototype Loss=0.0000, Total Loss=253.6590, Prototype State={}
+Epoch 14: Regression Loss=197.1381, Classification Loss=57.7154, Prototype Loss=0.0000, Total Loss=254.8536, Prototype State={}
+Epoch 15: Regression Loss=200.5014, Classification Loss=57.6736, Prototype Loss=0.0000, Total Loss=258.1750, Prototype State={}
+Epoch 16: Regression Loss=202.5862, Classification Loss=57.7407, Prototype Loss=0.0000, Total Loss=260.3269, Prototype State={}
+Epoch 17: Regression Loss=202.0314, Classification Loss=57.4436, Prototype Loss=0.0000, Total Loss=259.4749, Prototype State={}
+Epoch 18: Regression Loss=196.6356, Classification Loss=57.4996, Prototype Loss=0.0000, Total Loss=254.1352, Prototype State={}
+Epoch 19: Regression Loss=197.7862, Classification Loss=57.6405, Prototype Loss=0.0000, Total Loss=255.4266, Prototype State={}
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_20_20260817-040349.pth
+Epoch 20: Regression Loss=196.8190, Classification Loss=57.2448, Prototype Loss=0.0000, Total Loss=254.0638, Prototype State={}
+Epoch 21: Regression Loss=200.1182, Classification Loss=57.6661, Prototype Loss=0.0000, Total Loss=257.7843, Prototype State={}
+Epoch 22: Regression Loss=195.2274, Classification Loss=57.5532, Prototype Loss=0.0000, Total Loss=252.7806, Prototype State={}
+Epoch 23: Regression Loss=195.6695, Classification Loss=57.4921, Prototype Loss=0.0000, Total Loss=253.1616, Prototype State={}
+Epoch 24: Regression Loss=196.0877, Classification Loss=57.1462, Prototype Loss=0.0000, Total Loss=253.2339, Prototype State={}
+Epoch 25: Regression Loss=191.7973, Classification Loss=57.4813, Prototype Loss=0.0000, Total Loss=249.2786, Prototype State={}
+Epoch 26: Regression Loss=195.4082, Classification Loss=57.1555, Prototype Loss=0.0000, Total Loss=252.5637, Prototype State={}
+Epoch 27: Regression Loss=194.4623, Classification Loss=56.7402, Prototype Loss=0.0000, Total Loss=251.2025, Prototype State={}
+Epoch 28: Regression Loss=191.5334, Classification Loss=57.2046, Prototype Loss=0.0000, Total Loss=248.7379, Prototype State={}
+Epoch 29: Regression Loss=195.9964, Classification Loss=56.6754, Prototype Loss=0.0000, Total Loss=252.6718, Prototype State={}
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_30_20260817-083822.pth
+Epoch 30: Regression Loss=194.5426, Classification Loss=57.0030, Prototype Loss=0.0000, Total Loss=251.5456, Prototype State={}
+Epoch 30 Evaluation:
+  Detection Precision=0.6878, Recall=0.8151, F1=0.7461
+  Classification Precision=0.6878, Recall=0.8151, F1=0.7461
+  Best Classification F1: 0.0000
+Epoch 31: Regression Loss=191.0464, Classification Loss=56.9851, Prototype Loss=0.0000, Total Loss=248.0315, Prototype State={}
+Epoch 31 Evaluation:
+  Detection Precision=0.7259, Recall=0.7763, F1=0.7503
+  Classification Precision=0.7259, Recall=0.7763, F1=0.7503
+  Best Classification F1: 0.7461
+Epoch 32: Regression Loss=191.8978, Classification Loss=56.9186, Prototype Loss=0.0000, Total Loss=248.8164, Prototype State={}
+Epoch 32 Evaluation:
+  Detection Precision=0.6774, Recall=0.8222, F1=0.7428
+  Classification Precision=0.6774, Recall=0.8222, F1=0.7428
+  Best Classification F1: 0.7503
+Epoch 33: Regression Loss=195.5486, Classification Loss=56.6130, Prototype Loss=0.0000, Total Loss=252.1616, Prototype State={}
+Epoch 33 Evaluation:
+  Detection Precision=0.6734, Recall=0.8266, F1=0.7422
+  Classification Precision=0.6734, Recall=0.8266, F1=0.7422
+  Best Classification F1: 0.7503
+Epoch 34: Regression Loss=189.6425, Classification Loss=56.6347, Prototype Loss=0.0000, Total Loss=246.2772, Prototype State={}
+Epoch 34 Evaluation:
+  Detection Precision=0.6963, Recall=0.8051, F1=0.7467
+  Classification Precision=0.6963, Recall=0.8051, F1=0.7467
+  Best Classification F1: 0.7503
+Epoch 35: Regression Loss=192.5406, Classification Loss=56.7364, Prototype Loss=0.0000, Total Loss=249.2770, Prototype State={}
+Epoch 35 Evaluation:
+  Detection Precision=0.6990, Recall=0.8036, F1=0.7476
+  Classification Precision=0.6990, Recall=0.8036, F1=0.7476
+  Best Classification F1: 0.7503
+Epoch 36: Regression Loss=192.5795, Classification Loss=56.1853, Prototype Loss=0.0000, Total Loss=248.7648, Prototype State={}
+Epoch 36 Evaluation:
+  Detection Precision=0.6869, Recall=0.8124, F1=0.7444
+  Classification Precision=0.6869, Recall=0.8124, F1=0.7444
+  Best Classification F1: 0.7503
+Epoch 37: Regression Loss=189.4868, Classification Loss=56.2231, Prototype Loss=0.0000, Total Loss=245.7100, Prototype State={}
+Epoch 37 Evaluation:
+  Detection Precision=0.6986, Recall=0.8062, F1=0.7486
+  Classification Precision=0.6986, Recall=0.8062, F1=0.7486
+  Best Classification F1: 0.7503
+Epoch 38: Regression Loss=192.9708, Classification Loss=56.5235, Prototype Loss=0.0000, Total Loss=249.4943, Prototype State={}
+Epoch 38 Evaluation:
+  Detection Precision=0.7385, Recall=0.7659, F1=0.7519
+  Classification Precision=0.7385, Recall=0.7659, F1=0.7519
+  Best Classification F1: 0.7503
+Epoch 39: Regression Loss=188.7532, Classification Loss=56.5703, Prototype Loss=0.0000, Total Loss=245.3235, Prototype State={}
+Epoch 39 Evaluation:
+  Detection Precision=0.7281, Recall=0.7733, F1=0.7500
+  Classification Precision=0.7281, Recall=0.7733, F1=0.7500
+  Best Classification F1: 0.7519
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_40_20260817-165911.pth
+Epoch 40: Regression Loss=188.9005, Classification Loss=55.9204, Prototype Loss=0.0000, Total Loss=244.8209, Prototype State={}
+Epoch 40 Evaluation:
+  Detection Precision=0.7076, Recall=0.7971, F1=0.7497
+  Classification Precision=0.7076, Recall=0.7971, F1=0.7497
+  Best Classification F1: 0.7519
+Epoch 41: Regression Loss=186.2944, Classification Loss=55.9267, Prototype Loss=0.0000, Total Loss=242.2211, Prototype State={}
+Epoch 41 Evaluation:
+  Detection Precision=0.7060, Recall=0.8002, F1=0.7501
+  Classification Precision=0.7060, Recall=0.8002, F1=0.7501
+  Best Classification F1: 0.7519
+Epoch 42: Regression Loss=189.9378, Classification Loss=56.1193, Prototype Loss=0.0000, Total Loss=246.0572, Prototype State={}
+Epoch 42 Evaluation:
+  Detection Precision=0.7069, Recall=0.7980, F1=0.7497
+  Classification Precision=0.7069, Recall=0.7980, F1=0.7497
+  Best Classification F1: 0.7519
+Epoch 43: Regression Loss=187.4637, Classification Loss=55.8656, Prototype Loss=0.0000, Total Loss=243.3293, Prototype State={}
+Epoch 43 Evaluation:
+  Detection Precision=0.6782, Recall=0.8239, F1=0.7440
+  Classification Precision=0.6782, Recall=0.8239, F1=0.7440
+  Best Classification F1: 0.7519
+Epoch 44: Regression Loss=183.8251, Classification Loss=55.9607, Prototype Loss=0.0000, Total Loss=239.7858, Prototype State={}
+Epoch 44 Evaluation:
+  Detection Precision=0.6823, Recall=0.8220, F1=0.7457
+  Classification Precision=0.6823, Recall=0.8220, F1=0.7457
+  Best Classification F1: 0.7519
+Epoch 45: Regression Loss=183.1710, Classification Loss=55.7577, Prototype Loss=0.0000, Total Loss=238.9287, Prototype State={}
+Epoch 45 Evaluation:
+  Detection Precision=0.7088, Recall=0.7945, F1=0.7492
+  Classification Precision=0.7088, Recall=0.7945, F1=0.7492
+  Best Classification F1: 0.7519
+Epoch 46: Regression Loss=183.7127, Classification Loss=55.7668, Prototype Loss=0.0000, Total Loss=239.4795, Prototype State={}
+Epoch 46 Evaluation:
+  Detection Precision=0.7287, Recall=0.7786, F1=0.7528
+  Classification Precision=0.7287, Recall=0.7786, F1=0.7528
+  Best Classification F1: 0.7519
+Epoch 47: Regression Loss=181.6768, Classification Loss=55.6728, Prototype Loss=0.0000, Total Loss=237.3496, Prototype State={}
+Epoch 47 Evaluation:
+  Detection Precision=0.7169, Recall=0.7927, F1=0.7529
+  Classification Precision=0.7169, Recall=0.7927, F1=0.7529
+  Best Classification F1: 0.7528
+Epoch 48: Regression Loss=181.6600, Classification Loss=55.2821, Prototype Loss=0.0000, Total Loss=236.9422, Prototype State={}
+Epoch 48 Evaluation:
+  Detection Precision=0.7471, Recall=0.7557, F1=0.7514
+  Classification Precision=0.7471, Recall=0.7557, F1=0.7514
+  Best Classification F1: 0.7529
+Epoch 49: Regression Loss=185.5504, Classification Loss=55.1565, Prototype Loss=0.0000, Total Loss=240.7070, Prototype State={}
+Epoch 49 Evaluation:
+  Detection Precision=0.6880, Recall=0.8189, F1=0.7477
+  Classification Precision=0.6880, Recall=0.8189, F1=0.7477
+  Best Classification F1: 0.7529
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_50_20260818-012155.pth
+Epoch 50: Regression Loss=182.4871, Classification Loss=55.0964, Prototype Loss=0.0000, Total Loss=237.5834, Prototype State={}
+Epoch 50 Evaluation:
+  Detection Precision=0.7006, Recall=0.8081, F1=0.7505
+  Classification Precision=0.7006, Recall=0.8081, F1=0.7505
+  Best Classification F1: 0.7529
+Epoch 51: Regression Loss=178.9200, Classification Loss=55.2678, Prototype Loss=0.0000, Total Loss=234.1877, Prototype State={}
+Epoch 51 Evaluation:
+  Detection Precision=0.7052, Recall=0.8037, F1=0.7512
+  Classification Precision=0.7052, Recall=0.8037, F1=0.7512
+  Best Classification F1: 0.7529
+Epoch 52: Regression Loss=180.9243, Classification Loss=55.3467, Prototype Loss=0.0000, Total Loss=236.2710, Prototype State={}
+Epoch 52 Evaluation:
+  Detection Precision=0.7301, Recall=0.7780, F1=0.7533
+  Classification Precision=0.7301, Recall=0.7780, F1=0.7533
+  Best Classification F1: 0.7529
+Epoch 53: Regression Loss=183.2341, Classification Loss=55.2017, Prototype Loss=0.0000, Total Loss=238.4358, Prototype State={}
+Epoch 53 Evaluation:
+  Detection Precision=0.6988, Recall=0.8093, F1=0.7500
+  Classification Precision=0.6988, Recall=0.8093, F1=0.7500
+  Best Classification F1: 0.7533
+Epoch 54: Regression Loss=182.9665, Classification Loss=55.1311, Prototype Loss=0.0000, Total Loss=238.0976, Prototype State={}
+Epoch 54 Evaluation:
+  Detection Precision=0.7185, Recall=0.7927, F1=0.7538
+  Classification Precision=0.7185, Recall=0.7927, F1=0.7538
+  Best Classification F1: 0.7533
+Epoch 55: Regression Loss=180.9948, Classification Loss=54.7737, Prototype Loss=0.0000, Total Loss=235.7685, Prototype State={}
+Epoch 55 Evaluation:
+  Detection Precision=0.7221, Recall=0.7897, F1=0.7544
+  Classification Precision=0.7221, Recall=0.7897, F1=0.7544
+  Best Classification F1: 0.7538
+Epoch 56: Regression Loss=179.2777, Classification Loss=54.7357, Prototype Loss=0.0000, Total Loss=234.0134, Prototype State={}
+Epoch 56 Evaluation:
+  Detection Precision=0.7023, Recall=0.8070, F1=0.7510
+  Classification Precision=0.7023, Recall=0.8070, F1=0.7510
+  Best Classification F1: 0.7544
+Epoch 57: Regression Loss=180.5212, Classification Loss=54.8829, Prototype Loss=0.0000, Total Loss=235.4041, Prototype State={}
+Epoch 57 Evaluation:
+  Detection Precision=0.7148, Recall=0.7935, F1=0.7521
+  Classification Precision=0.7148, Recall=0.7935, F1=0.7521
+  Best Classification F1: 0.7544
+Epoch 58: Regression Loss=179.4195, Classification Loss=54.5804, Prototype Loss=0.0000, Total Loss=234.0000, Prototype State={}
+Epoch 58 Evaluation:
+  Detection Precision=0.6804, Recall=0.8265, F1=0.7464
+  Classification Precision=0.6804, Recall=0.8265, F1=0.7464
+  Best Classification F1: 0.7544
+Epoch 59: Regression Loss=177.3195, Classification Loss=54.5828, Prototype Loss=0.0000, Total Loss=231.9022, Prototype State={}
+Epoch 59 Evaluation:
+  Detection Precision=0.7036, Recall=0.8068, F1=0.7517
+  Classification Precision=0.7036, Recall=0.8068, F1=0.7517
+  Best Classification F1: 0.7544
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_60_20260818-092828.pth
+Epoch 60: Regression Loss=179.0352, Classification Loss=54.5274, Prototype Loss=0.0000, Total Loss=233.5626, Prototype State={}
+Epoch 60 Evaluation:
+  Detection Precision=0.7343, Recall=0.7750, F1=0.7541
+  Classification Precision=0.7343, Recall=0.7750, F1=0.7541
+  Best Classification F1: 0.7544
+Epoch 61: Regression Loss=183.4761, Classification Loss=54.3037, Prototype Loss=0.0000, Total Loss=237.7798, Prototype State={}
+Epoch 61 Evaluation:
+  Detection Precision=0.7221, Recall=0.7899, F1=0.7545
+  Classification Precision=0.7221, Recall=0.7899, F1=0.7545
+  Best Classification F1: 0.7544
+Epoch 62: Regression Loss=182.1849, Classification Loss=54.5200, Prototype Loss=0.0000, Total Loss=236.7050, Prototype State={}
+Epoch 62 Evaluation:
+  Detection Precision=0.6858, Recall=0.8232, F1=0.7483
+  Classification Precision=0.6858, Recall=0.8232, F1=0.7483
+  Best Classification F1: 0.7545
+Epoch 63: Regression Loss=176.4859, Classification Loss=54.1184, Prototype Loss=0.0000, Total Loss=230.6043, Prototype State={}
+Epoch 63 Evaluation:
+  Detection Precision=0.7005, Recall=0.8095, F1=0.7511
+  Classification Precision=0.7005, Recall=0.8095, F1=0.7511
+  Best Classification F1: 0.7545
+Epoch 64: Regression Loss=176.4381, Classification Loss=54.0814, Prototype Loss=0.0000, Total Loss=230.5195, Prototype State={}
+Epoch 64 Evaluation:
+  Detection Precision=0.7237, Recall=0.7903, F1=0.7555
+  Classification Precision=0.7237, Recall=0.7903, F1=0.7555
+  Best Classification F1: 0.7545
+Epoch 65: Regression Loss=179.5983, Classification Loss=53.9875, Prototype Loss=0.0000, Total Loss=233.5858, Prototype State={}
+Epoch 65 Evaluation:
+  Detection Precision=0.7195, Recall=0.7922, F1=0.7541
+  Classification Precision=0.7195, Recall=0.7922, F1=0.7541
+  Best Classification F1: 0.7555
+Epoch 66: Regression Loss=173.9688, Classification Loss=54.1088, Prototype Loss=0.0000, Total Loss=228.0776, Prototype State={}
+Epoch 66 Evaluation:
+  Detection Precision=0.7269, Recall=0.7852, F1=0.7550
+  Classification Precision=0.7269, Recall=0.7852, F1=0.7550
+  Best Classification F1: 0.7555
+Epoch 67: Regression Loss=173.8427, Classification Loss=54.0306, Prototype Loss=0.0000, Total Loss=227.8733, Prototype State={}
+Epoch 67 Evaluation:
+  Detection Precision=0.7340, Recall=0.7785, F1=0.7556
+  Classification Precision=0.7340, Recall=0.7785, F1=0.7556
+  Best Classification F1: 0.7555
+Epoch 68: Regression Loss=176.4024, Classification Loss=53.7760, Prototype Loss=0.0000, Total Loss=230.1784, Prototype State={}
+Epoch 68 Evaluation:
+  Detection Precision=0.7144, Recall=0.7996, F1=0.7546
+  Classification Precision=0.7144, Recall=0.7996, F1=0.7546
+  Best Classification F1: 0.7556
+Epoch 69: Regression Loss=174.3651, Classification Loss=53.9589, Prototype Loss=0.0000, Total Loss=228.3240, Prototype State={}
+Epoch 69 Evaluation:
+  Detection Precision=0.7279, Recall=0.7846, F1=0.7552
+  Classification Precision=0.7279, Recall=0.7846, F1=0.7552
+  Best Classification F1: 0.7556
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_70_20260818-173722.pth
+Epoch 70: Regression Loss=173.1820, Classification Loss=54.1004, Prototype Loss=0.0000, Total Loss=227.2824, Prototype State={}
+Epoch 70 Evaluation:
+  Detection Precision=0.7247, Recall=0.7880, F1=0.7550
+  Classification Precision=0.7247, Recall=0.7880, F1=0.7550
+  Best Classification F1: 0.7556
+Epoch 71: Regression Loss=177.2224, Classification Loss=53.7396, Prototype Loss=0.0000, Total Loss=230.9620, Prototype State={}
+Epoch 71 Evaluation:
+  Detection Precision=0.7116, Recall=0.8013, F1=0.7538
+  Classification Precision=0.7116, Recall=0.8013, F1=0.7538
+  Best Classification F1: 0.7556
+Epoch 72: Regression Loss=174.8903, Classification Loss=53.5761, Prototype Loss=0.0000, Total Loss=228.4664, Prototype State={}
+Epoch 72 Evaluation:
+  Detection Precision=0.7149, Recall=0.7990, F1=0.7546
+  Classification Precision=0.7149, Recall=0.7990, F1=0.7546
+  Best Classification F1: 0.7556
+Epoch 73: Regression Loss=175.8023, Classification Loss=53.6397, Prototype Loss=0.0000, Total Loss=229.4420, Prototype State={}
+Epoch 73 Evaluation:
+  Detection Precision=0.6915, Recall=0.8201, F1=0.7503
+  Classification Precision=0.6915, Recall=0.8201, F1=0.7503
+  Best Classification F1: 0.7556
+Epoch 74: Regression Loss=172.9806, Classification Loss=53.3707, Prototype Loss=0.0000, Total Loss=226.3513, Prototype State={}
+Epoch 74 Evaluation:
+  Detection Precision=0.6907, Recall=0.8215, F1=0.7504
+  Classification Precision=0.6907, Recall=0.8215, F1=0.7504
+  Best Classification F1: 0.7556
+Epoch 75: Regression Loss=169.3339, Classification Loss=53.7285, Prototype Loss=0.0000, Total Loss=223.0623, Prototype State={}
+Epoch 75 Evaluation:
+  Detection Precision=0.7130, Recall=0.8019, F1=0.7548
+  Classification Precision=0.7130, Recall=0.8019, F1=0.7548
+  Best Classification F1: 0.7556
+Epoch 76: Regression Loss=171.5810, Classification Loss=53.3430, Prototype Loss=0.0000, Total Loss=224.9240, Prototype State={}
+Epoch 76 Evaluation:
+  Detection Precision=0.7224, Recall=0.7913, F1=0.7553
+  Classification Precision=0.7224, Recall=0.7913, F1=0.7553
+  Best Classification F1: 0.7556
+Epoch 77: Regression Loss=169.4722, Classification Loss=53.5153, Prototype Loss=0.0000, Total Loss=222.9874, Prototype State={}
+Epoch 77 Evaluation:
+  Detection Precision=0.7118, Recall=0.8024, F1=0.7544
+  Classification Precision=0.7118, Recall=0.8024, F1=0.7544
+  Best Classification F1: 0.7556
+Epoch 78: Regression Loss=174.3140, Classification Loss=53.2531, Prototype Loss=0.0000, Total Loss=227.5672, Prototype State={}
+Epoch 78 Evaluation:
+  Detection Precision=0.6989, Recall=0.8142, F1=0.7522
+  Classification Precision=0.6989, Recall=0.8142, F1=0.7522
+  Best Classification F1: 0.7556
+Epoch 79: Regression Loss=172.1034, Classification Loss=53.2310, Prototype Loss=0.0000, Total Loss=225.3344, Prototype State={}
+Epoch 79 Evaluation:
+  Detection Precision=0.7024, Recall=0.8107, F1=0.7527
+  Classification Precision=0.7024, Recall=0.8107, F1=0.7527
+  Best Classification F1: 0.7556
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_80_20260819-013519.pth
+Epoch 80: Regression Loss=170.6341, Classification Loss=53.2351, Prototype Loss=0.0000, Total Loss=223.8692, Prototype State={}
+Epoch 80 Evaluation:
+  Detection Precision=0.7031, Recall=0.8099, F1=0.7527
+  Classification Precision=0.7031, Recall=0.8099, F1=0.7527
+  Best Classification F1: 0.7556
+Epoch 81: Regression Loss=170.8115, Classification Loss=53.4814, Prototype Loss=0.0000, Total Loss=224.2929, Prototype State={}
+Epoch 81 Evaluation:
+  Detection Precision=0.7162, Recall=0.7994, F1=0.7555
+  Classification Precision=0.7162, Recall=0.7994, F1=0.7555
+  Best Classification F1: 0.7556
+Epoch 82: Regression Loss=172.6738, Classification Loss=53.1586, Prototype Loss=0.0000, Total Loss=225.8324, Prototype State={}
+Epoch 82 Evaluation:
+  Detection Precision=0.7079, Recall=0.8063, F1=0.7539
+  Classification Precision=0.7079, Recall=0.8063, F1=0.7539
+  Best Classification F1: 0.7556
+Epoch 83: Regression Loss=170.9601, Classification Loss=53.4011, Prototype Loss=0.0000, Total Loss=224.3612, Prototype State={}
+Epoch 83 Evaluation:
+  Detection Precision=0.7070, Recall=0.8079, F1=0.7541
+  Classification Precision=0.7070, Recall=0.8079, F1=0.7541
+  Best Classification F1: 0.7556
+Epoch 84: Regression Loss=173.0341, Classification Loss=53.1126, Prototype Loss=0.0000, Total Loss=226.1467, Prototype State={}
+Epoch 84 Evaluation:
+  Detection Precision=0.7045, Recall=0.8093, F1=0.7533
+  Classification Precision=0.7045, Recall=0.8093, F1=0.7533
+  Best Classification F1: 0.7556
+Epoch 85: Regression Loss=169.5700, Classification Loss=53.1293, Prototype Loss=0.0000, Total Loss=222.6993, Prototype State={}
+Epoch 85 Evaluation:
+  Detection Precision=0.7267, Recall=0.7893, F1=0.7567
+  Classification Precision=0.7267, Recall=0.7893, F1=0.7567
+  Best Classification F1: 0.7556
+Epoch 86: Regression Loss=170.0460, Classification Loss=53.0535, Prototype Loss=0.0000, Total Loss=223.0995, Prototype State={}
+Epoch 86 Evaluation:
+  Detection Precision=0.7027, Recall=0.8113, F1=0.7531
+  Classification Precision=0.7027, Recall=0.8113, F1=0.7531
+  Best Classification F1: 0.7567
+Epoch 87: Regression Loss=169.0766, Classification Loss=53.1299, Prototype Loss=0.0000, Total Loss=222.2064, Prototype State={}
+Epoch 87 Evaluation:
+  Detection Precision=0.7055, Recall=0.8093, F1=0.7538
+  Classification Precision=0.7055, Recall=0.8093, F1=0.7538
+  Best Classification F1: 0.7567
+Epoch 88: Regression Loss=169.4509, Classification Loss=52.9970, Prototype Loss=0.0000, Total Loss=222.4478, Prototype State={}
+Epoch 88 Evaluation:
+  Detection Precision=0.7101, Recall=0.8050, F1=0.7546
+  Classification Precision=0.7101, Recall=0.8050, F1=0.7546
+  Best Classification F1: 0.7567
+Epoch 89: Regression Loss=168.3465, Classification Loss=53.0936, Prototype Loss=0.0000, Total Loss=221.4401, Prototype State={}
+Epoch 89 Evaluation:
+  Detection Precision=0.7035, Recall=0.8107, F1=0.7533
+  Classification Precision=0.7035, Recall=0.8107, F1=0.7533
+  Best Classification F1: 0.7567
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_90_20260819-074257.pth
+Epoch 90: Regression Loss=169.3391, Classification Loss=52.6950, Prototype Loss=0.0000, Total Loss=222.0341, Prototype State={}
+Epoch 90 Evaluation:
+  Detection Precision=0.7265, Recall=0.7890, F1=0.7564
+  Classification Precision=0.7265, Recall=0.7890, F1=0.7564
+  Best Classification F1: 0.7567
+Epoch 91: Regression Loss=167.0277, Classification Loss=53.0585, Prototype Loss=0.0000, Total Loss=220.0862, Prototype State={}
+Epoch 91 Evaluation:
+  Detection Precision=0.7057, Recall=0.8085, F1=0.7536
+  Classification Precision=0.7057, Recall=0.8085, F1=0.7536
+  Best Classification F1: 0.7567
+Epoch 92: Regression Loss=166.2167, Classification Loss=53.0519, Prototype Loss=0.0000, Total Loss=219.2687, Prototype State={}
+Epoch 92 Evaluation:
+  Detection Precision=0.7114, Recall=0.8038, F1=0.7548
+  Classification Precision=0.7114, Recall=0.8038, F1=0.7548
+  Best Classification F1: 0.7567
+Epoch 93: Regression Loss=170.1105, Classification Loss=52.9304, Prototype Loss=0.0000, Total Loss=223.0408, Prototype State={}
+Epoch 93 Evaluation:
+  Detection Precision=0.7134, Recall=0.8023, F1=0.7553
+  Classification Precision=0.7134, Recall=0.8023, F1=0.7553
+  Best Classification F1: 0.7567
+Epoch 94: Regression Loss=168.5185, Classification Loss=52.7959, Prototype Loss=0.0000, Total Loss=221.3144, Prototype State={}
+Epoch 94 Evaluation:
+  Detection Precision=0.7098, Recall=0.8056, F1=0.7547
+  Classification Precision=0.7098, Recall=0.8056, F1=0.7547
+  Best Classification F1: 0.7567
+Epoch 95: Regression Loss=170.4161, Classification Loss=52.8974, Prototype Loss=0.0000, Total Loss=223.3135, Prototype State={}
+Epoch 95 Evaluation:
+  Detection Precision=0.7127, Recall=0.8028, F1=0.7551
+  Classification Precision=0.7127, Recall=0.8028, F1=0.7551
+  Best Classification F1: 0.7567
+Epoch 96: Regression Loss=169.8454, Classification Loss=52.8347, Prototype Loss=0.0000, Total Loss=222.6801, Prototype State={}
+Epoch 96 Evaluation:
+  Detection Precision=0.7118, Recall=0.8033, F1=0.7548
+  Classification Precision=0.7118, Recall=0.8033, F1=0.7548
+  Best Classification F1: 0.7567
+Epoch 97: Regression Loss=168.7639, Classification Loss=52.8627, Prototype Loss=0.0000, Total Loss=221.6265, Prototype State={}
+Epoch 97 Evaluation:
+  Detection Precision=0.7041, Recall=0.8109, F1=0.7538
+  Classification Precision=0.7041, Recall=0.8109, F1=0.7538
+  Best Classification F1: 0.7567
+Epoch 98: Regression Loss=171.4593, Classification Loss=52.7993, Prototype Loss=0.0000, Total Loss=224.2586, Prototype State={}
+Epoch 98 Evaluation:
+  Detection Precision=0.7014, Recall=0.8131, F1=0.7531
+  Classification Precision=0.7014, Recall=0.8131, F1=0.7531
+  Best Classification F1: 0.7567
+Epoch 99: Regression Loss=168.8175, Classification Loss=52.8643, Prototype Loss=0.0000, Total Loss=221.6818, Prototype State={}
+Epoch 99 Evaluation:
+  Detection Precision=0.7108, Recall=0.8045, F1=0.7547
+  Classification Precision=0.7108, Recall=0.8045, F1=0.7547
+  Best Classification F1: 0.7567
+Model saved: /home/data/yh_1/p2p-set-pnp/p2p-src-zzh-2025/experiments/p2p_frozen_supervised_proto_100ep_20260816_135321_gpu3_bt1/control_p2p/model_epoch_100_20260819-155153.pth
