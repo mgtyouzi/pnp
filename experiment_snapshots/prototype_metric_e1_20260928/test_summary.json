@@ -1,0 +1,41 @@
+{
+  "experiment_name": "prototype_metric_e1_100ep_w0p005_20260928_gpu3",
+  "case": "E1_100ep_paraffin_test",
+  "dataset": "Paraffin-2025",
+  "checkpoint_file": "final_model.pth",
+  "checkpoint_epoch_index": 99,
+  "strict_load": {
+    "missing_keys": 0,
+    "unexpected_keys": 0
+  },
+  "evaluation_protocol": "skip_empty_gt_in_eval",
+  "evaluated_images": 876,
+  "total_test_images": 877,
+  "skipped_empty_gt_images": 1,
+  "gt": 166856,
+  "pred": 204218,
+  "tp": 125719,
+  "fp": 78499,
+  "fn": 41137,
+  "precision": 0.6156117482298328,
+  "recall": 0.7534580716306276,
+  "f1": 0.6775953044406237,
+  "mae": 6.509007797569585,
+  "mse": 34.15276563732622,
+  "pred_gt_ratio": 1.2239176295728054,
+  "mean_tp_distance": 5.109922825693336,
+  "fn_breakdown": {
+    "no_candidate": 11,
+    "low_score_or_background": 30472,
+    "localization_shift": 10262,
+    "near_candidate_unmatched": 392
+  },
+  "fp_breakdown": {
+    "empty_image": 0,
+    "duplicate": 1320,
+    "near_miss": 17734,
+    "background_far": 59445
+  },
+  "model_weights_included": false,
+  "per_image_outputs_included": false
+}

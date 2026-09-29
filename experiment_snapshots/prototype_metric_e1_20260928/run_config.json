@@ -1,0 +1,37 @@
+{
+  "experiment_name": "prototype_metric_e1_100ep_w0p005_20260928_gpu3",
+  "task": "paraffin_train_paraffin_test",
+  "training_gpu": 3,
+  "initial_checkpoint": "p2p-yfh baseline checkpoint 0318/best_model.pth",
+  "training": {
+    "epochs": 100,
+    "batch_size": 1,
+    "learning_rate": 0.0001,
+    "minimum_learning_rate": 0.000001,
+    "warmup_epochs": 5,
+    "seed": 0,
+    "backbone": "resnet50",
+    "hidden_dim": 256,
+    "num_classes": 1
+  },
+  "prototype_metric_e1": {
+    "enabled": true,
+    "hidden_dim": 128,
+    "embedding_dim": 64,
+    "loss_coefficient": 0.005,
+    "positive_radius": 15.0,
+    "negative_radius": 30.0,
+    "max_positive_per_image": 32,
+    "max_negative_per_image": 64,
+    "margin": 0.1,
+    "beta": 16.0,
+    "gradient_audit_interval": 500
+  },
+  "evaluation": {
+    "script": "diagnose_cross_domain.py",
+    "split": "test",
+    "gpu": 5,
+    "strict_checkpoint_load": true,
+    "skip_empty_gt_in_eval": true
+  }
+}
