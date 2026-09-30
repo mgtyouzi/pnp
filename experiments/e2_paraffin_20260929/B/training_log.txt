@@ -1,0 +1,201 @@
+Training Log
+Epoch 0: Regression Loss=128.0177, Classification Loss=53.8871, Weighted Prototype Loss=0.000000, Total Loss=181.9048
+Epoch 1: Regression Loss=126.0260, Classification Loss=53.4246, Weighted Prototype Loss=0.000000, Total Loss=179.4506
+Epoch 1 Evaluation:
+  Detection Precision=0.6364, Recall=0.8383, F1=0.7235
+  Classification Precision=0.6364, Recall=0.8383, F1=0.7235
+  Best Classification F1: 0.0000
+Epoch 2: Regression Loss=125.0749, Classification Loss=53.7972, Weighted Prototype Loss=0.000000, Total Loss=178.8721
+Epoch 2 Evaluation:
+  Detection Precision=0.6327, Recall=0.8423, F1=0.7226
+  Classification Precision=0.6327, Recall=0.8423, F1=0.7226
+  Best Classification F1: 0.7235
+Epoch 3: Regression Loss=122.2755, Classification Loss=53.8248, Weighted Prototype Loss=0.000000, Total Loss=176.1003
+Epoch 3 Evaluation:
+  Detection Precision=0.6075, Recall=0.8555, F1=0.7105
+  Classification Precision=0.6075, Recall=0.8555, F1=0.7105
+  Best Classification F1: 0.7235
+Epoch 4: Regression Loss=122.8762, Classification Loss=54.0384, Weighted Prototype Loss=0.000000, Total Loss=176.9147
+Epoch 4 Evaluation:
+  Detection Precision=0.5955, Recall=0.8621, F1=0.7045
+  Classification Precision=0.5955, Recall=0.8621, F1=0.7045
+  Best Classification F1: 0.7235
+Epoch 5: Regression Loss=125.3776, Classification Loss=53.8034, Weighted Prototype Loss=0.000000, Total Loss=179.1811
+Epoch 5 Evaluation:
+  Detection Precision=0.5994, Recall=0.8590, F1=0.7061
+  Classification Precision=0.5994, Recall=0.8590, F1=0.7061
+  Best Classification F1: 0.7235
+Epoch 6: Regression Loss=125.2234, Classification Loss=53.8475, Weighted Prototype Loss=0.000000, Total Loss=179.0710
+Epoch 6 Evaluation:
+  Detection Precision=0.6317, Recall=0.8329, F1=0.7184
+  Classification Precision=0.6317, Recall=0.8329, F1=0.7184
+  Best Classification F1: 0.7235
+Epoch 7: Regression Loss=125.3996, Classification Loss=53.7628, Weighted Prototype Loss=0.000000, Total Loss=179.1624
+Epoch 7 Evaluation:
+  Detection Precision=0.6154, Recall=0.8441, F1=0.7118
+  Classification Precision=0.6154, Recall=0.8441, F1=0.7118
+  Best Classification F1: 0.7235
+Epoch 8: Regression Loss=124.7233, Classification Loss=53.7097, Weighted Prototype Loss=0.000000, Total Loss=178.4330
+Epoch 8 Evaluation:
+  Detection Precision=0.5925, Recall=0.8641, F1=0.7030
+  Classification Precision=0.5925, Recall=0.8641, F1=0.7030
+  Best Classification F1: 0.7235
+Epoch 9: Regression Loss=123.2404, Classification Loss=53.9260, Weighted Prototype Loss=0.000000, Total Loss=177.1665
+Epoch 9 Evaluation:
+  Detection Precision=0.6138, Recall=0.8458, F1=0.7114
+  Classification Precision=0.6138, Recall=0.8458, F1=0.7114
+  Best Classification F1: 0.7235
+Model saved: experiments/e2b_online_proto_residual_40ep_val30_20260929_gpu0/model_epoch_9_20260929-132002.pth
+Epoch 10: Regression Loss=124.6935, Classification Loss=53.7067, Weighted Prototype Loss=0.000000, Total Loss=178.4002
+Epoch 10 Evaluation:
+  Detection Precision=0.6512, Recall=0.8151, F1=0.7240
+  Classification Precision=0.6512, Recall=0.8151, F1=0.7240
+  Best Classification F1: 0.7235
+Epoch 11: Regression Loss=123.3465, Classification Loss=53.8964, Weighted Prototype Loss=0.000000, Total Loss=177.2429
+Epoch 11 Evaluation:
+  Detection Precision=0.5887, Recall=0.8615, F1=0.6994
+  Classification Precision=0.5887, Recall=0.8615, F1=0.6994
+  Best Classification F1: 0.7240
+Epoch 12: Regression Loss=125.2950, Classification Loss=53.5715, Weighted Prototype Loss=0.000000, Total Loss=178.8665
+Epoch 12 Evaluation:
+  Detection Precision=0.6190, Recall=0.8426, F1=0.7137
+  Classification Precision=0.6190, Recall=0.8426, F1=0.7137
+  Best Classification F1: 0.7240
+Epoch 13: Regression Loss=124.9865, Classification Loss=53.7449, Weighted Prototype Loss=0.000000, Total Loss=178.7314
+Epoch 13 Evaluation:
+  Detection Precision=0.6363, Recall=0.8302, F1=0.7204
+  Classification Precision=0.6363, Recall=0.8302, F1=0.7204
+  Best Classification F1: 0.7240
+Epoch 14: Regression Loss=121.9809, Classification Loss=53.8909, Weighted Prototype Loss=0.000000, Total Loss=175.8719
+Epoch 14 Evaluation:
+  Detection Precision=0.6456, Recall=0.8232, F1=0.7237
+  Classification Precision=0.6456, Recall=0.8232, F1=0.7237
+  Best Classification F1: 0.7240
+Epoch 15: Regression Loss=124.6969, Classification Loss=53.5854, Weighted Prototype Loss=0.000000, Total Loss=178.2823
+Epoch 15 Evaluation:
+  Detection Precision=0.6325, Recall=0.8333, F1=0.7192
+  Classification Precision=0.6325, Recall=0.8333, F1=0.7192
+  Best Classification F1: 0.7240
+Epoch 16: Regression Loss=122.7224, Classification Loss=53.5272, Weighted Prototype Loss=0.000000, Total Loss=176.2496
+Epoch 16 Evaluation:
+  Detection Precision=0.6048, Recall=0.8550, F1=0.7085
+  Classification Precision=0.6048, Recall=0.8550, F1=0.7085
+  Best Classification F1: 0.7240
+Epoch 17: Regression Loss=123.7375, Classification Loss=53.4807, Weighted Prototype Loss=0.000000, Total Loss=177.2181
+Epoch 17 Evaluation:
+  Detection Precision=0.6324, Recall=0.8315, F1=0.7184
+  Classification Precision=0.6324, Recall=0.8315, F1=0.7184
+  Best Classification F1: 0.7240
+Epoch 18: Regression Loss=124.6938, Classification Loss=53.2437, Weighted Prototype Loss=0.000000, Total Loss=177.9375
+Epoch 18 Evaluation:
+  Detection Precision=0.6237, Recall=0.8389, F1=0.7155
+  Classification Precision=0.6237, Recall=0.8389, F1=0.7155
+  Best Classification F1: 0.7240
+Epoch 19: Regression Loss=121.1820, Classification Loss=53.5437, Weighted Prototype Loss=0.000000, Total Loss=174.7257
+Epoch 19 Evaluation:
+  Detection Precision=0.6495, Recall=0.8177, F1=0.7239
+  Classification Precision=0.6495, Recall=0.8177, F1=0.7239
+  Best Classification F1: 0.7240
+Model saved: experiments/e2b_online_proto_residual_40ep_val30_20260929_gpu0/model_epoch_19_20260929-145112.pth
+Epoch 20: Regression Loss=121.4866, Classification Loss=53.4884, Weighted Prototype Loss=11.117703, Total Loss=186.0927
+Epoch 20 Evaluation:
+  Detection Precision=0.6073, Recall=0.8455, F1=0.7069
+  Classification Precision=0.6073, Recall=0.8455, F1=0.7069
+  Best Classification F1: 0.7240
+Epoch 21: Regression Loss=122.0988, Classification Loss=53.3541, Weighted Prototype Loss=10.758450, Total Loss=186.2114
+Epoch 21 Evaluation:
+  Detection Precision=0.6387, Recall=0.8251, F1=0.7200
+  Classification Precision=0.6387, Recall=0.8251, F1=0.7200
+  Best Classification F1: 0.7240
+Epoch 22: Regression Loss=122.9655, Classification Loss=53.1184, Weighted Prototype Loss=10.617859, Total Loss=186.7017
+Epoch 22 Evaluation:
+  Detection Precision=0.6162, Recall=0.8437, F1=0.7122
+  Classification Precision=0.6162, Recall=0.8437, F1=0.7122
+  Best Classification F1: 0.7240
+Epoch 23: Regression Loss=122.3243, Classification Loss=53.2551, Weighted Prototype Loss=10.555400, Total Loss=186.1348
+Epoch 23 Evaluation:
+  Detection Precision=0.6388, Recall=0.8254, F1=0.7202
+  Classification Precision=0.6388, Recall=0.8254, F1=0.7202
+  Best Classification F1: 0.7240
+Epoch 24: Regression Loss=122.6886, Classification Loss=52.9215, Weighted Prototype Loss=10.455543, Total Loss=186.0657
+Epoch 24 Evaluation:
+  Detection Precision=0.6291, Recall=0.8366, F1=0.7182
+  Classification Precision=0.6291, Recall=0.8366, F1=0.7182
+  Best Classification F1: 0.7240
+Epoch 25: Regression Loss=123.0220, Classification Loss=52.9997, Weighted Prototype Loss=1003.204676, Total Loss=1179.2264
+Epoch 25 Evaluation:
+  Detection Precision=0.6313, Recall=0.8355, F1=0.7192
+  Classification Precision=0.6313, Recall=0.8355, F1=0.7192
+  Best Classification F1: 0.7240
+Epoch 26: Regression Loss=120.7676, Classification Loss=53.1951, Weighted Prototype Loss=1000.973892, Total Loss=1174.9367
+Epoch 26 Evaluation:
+  Detection Precision=0.6340, Recall=0.8333, F1=0.7201
+  Classification Precision=0.6340, Recall=0.8333, F1=0.7201
+  Best Classification F1: 0.7240
+Epoch 27: Regression Loss=119.0733, Classification Loss=53.1781, Weighted Prototype Loss=1000.779923, Total Loss=1173.0313
+Epoch 27 Evaluation:
+  Detection Precision=0.6283, Recall=0.8380, F1=0.7181
+  Classification Precision=0.6283, Recall=0.8380, F1=0.7181
+  Best Classification F1: 0.7240
+Epoch 28: Regression Loss=118.9945, Classification Loss=53.1034, Weighted Prototype Loss=997.081998, Total Loss=1169.1800
+Epoch 28 Evaluation:
+  Detection Precision=0.6186, Recall=0.8447, F1=0.7142
+  Classification Precision=0.6186, Recall=0.8447, F1=0.7142
+  Best Classification F1: 0.7240
+Epoch 29: Regression Loss=119.8107, Classification Loss=52.9285, Weighted Prototype Loss=1003.695722, Total Loss=1176.4349
+Epoch 29 Evaluation:
+  Detection Precision=0.6277, Recall=0.8374, F1=0.7176
+  Classification Precision=0.6277, Recall=0.8374, F1=0.7176
+  Best Classification F1: 0.7240
+Model saved: experiments/e2b_online_proto_residual_40ep_val30_20260929_gpu0/model_epoch_29_20260929-162111.pth
+Epoch 30: Regression Loss=119.4537, Classification Loss=52.8811, Weighted Prototype Loss=996.020723, Total Loss=1168.3556
+Epoch 30 Evaluation:
+  Detection Precision=0.6356, Recall=0.8315, F1=0.7204
+  Classification Precision=0.6356, Recall=0.8315, F1=0.7204
+  Best Classification F1: 0.7240
+Epoch 31: Regression Loss=120.1854, Classification Loss=52.8811, Weighted Prototype Loss=996.975731, Total Loss=1170.0422
+Epoch 31 Evaluation:
+  Detection Precision=0.6242, Recall=0.8394, F1=0.7160
+  Classification Precision=0.6242, Recall=0.8394, F1=0.7160
+  Best Classification F1: 0.7240
+Epoch 32: Regression Loss=119.1565, Classification Loss=52.9183, Weighted Prototype Loss=996.979800, Total Loss=1169.0546
+Epoch 32 Evaluation:
+  Detection Precision=0.6184, Recall=0.8448, F1=0.7141
+  Classification Precision=0.6184, Recall=0.8448, F1=0.7141
+  Best Classification F1: 0.7240
+Epoch 33: Regression Loss=120.3669, Classification Loss=52.7295, Weighted Prototype Loss=998.667041, Total Loss=1171.7634
+Epoch 33 Evaluation:
+  Detection Precision=0.6251, Recall=0.8406, F1=0.7170
+  Classification Precision=0.6251, Recall=0.8406, F1=0.7170
+  Best Classification F1: 0.7240
+Epoch 34: Regression Loss=119.8082, Classification Loss=52.7073, Weighted Prototype Loss=996.988412, Total Loss=1169.5040
+Epoch 34 Evaluation:
+  Detection Precision=0.6181, Recall=0.8450, F1=0.7140
+  Classification Precision=0.6181, Recall=0.8450, F1=0.7140
+  Best Classification F1: 0.7240
+Epoch 35: Regression Loss=120.7866, Classification Loss=52.8060, Weighted Prototype Loss=997.312408, Total Loss=1170.9051
+Epoch 35 Evaluation:
+  Detection Precision=0.6216, Recall=0.8413, F1=0.7149
+  Classification Precision=0.6216, Recall=0.8413, F1=0.7149
+  Best Classification F1: 0.7240
+Epoch 36: Regression Loss=119.0180, Classification Loss=52.7614, Weighted Prototype Loss=1000.202327, Total Loss=1171.9817
+Epoch 36 Evaluation:
+  Detection Precision=0.6285, Recall=0.8369, F1=0.7179
+  Classification Precision=0.6285, Recall=0.8369, F1=0.7179
+  Best Classification F1: 0.7240
+Epoch 37: Regression Loss=121.1113, Classification Loss=52.6827, Weighted Prototype Loss=998.550311, Total Loss=1172.3443
+Epoch 37 Evaluation:
+  Detection Precision=0.6177, Recall=0.8442, F1=0.7134
+  Classification Precision=0.6177, Recall=0.8442, F1=0.7134
+  Best Classification F1: 0.7240
+Epoch 38: Regression Loss=119.6636, Classification Loss=52.6343, Weighted Prototype Loss=1000.060019, Total Loss=1172.3579
+Epoch 38 Evaluation:
+  Detection Precision=0.6329, Recall=0.8330, F1=0.7193
+  Classification Precision=0.6329, Recall=0.8330, F1=0.7193
+  Best Classification F1: 0.7240
+Epoch 39: Regression Loss=119.3221, Classification Loss=52.7971, Weighted Prototype Loss=999.359725, Total Loss=1171.4789
+Epoch 39 Evaluation:
+  Detection Precision=0.6404, Recall=0.8284, F1=0.7224
+  Classification Precision=0.6404, Recall=0.8284, F1=0.7224
+  Best Classification F1: 0.7240
+Model saved: experiments/e2b_online_proto_residual_40ep_val30_20260929_gpu0/model_epoch_39_20260929-174808.pth

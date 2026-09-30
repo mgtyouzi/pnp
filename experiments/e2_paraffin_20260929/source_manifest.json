@@ -1,0 +1,48 @@
+{
+  "source_project": "isolated Paraffin E2 server copy",
+  "source_snapshot_role": "archival snapshot; not a drop-in patch over repository root",
+  "base_main_commit": "7bbf7d1ec3ec07567e88ec69cc2e621389efa148",
+  "files": [
+    {
+      "path": "source_snapshot/train_p2p.py",
+      "server_runtime_git_blob_sha1": "4e630baf04c6eb441176ffb2fb8c96a8b2413538",
+      "github_main_blob_sha1": "a7b0068100502187147c58a1ee09369e871a54b4"
+    },
+    {
+      "path": "source_snapshot/train_p2p_no_empty_v2.py",
+      "server_runtime_git_blob_sha1": "27b8396f4303abe7677a93b2242f4b4504122a90",
+      "github_main_blob_sha1": "52c8aa5323bcc517af24baaab136c41f19e1679a"
+    },
+    {
+      "path": "source_snapshot/loss.py",
+      "server_runtime_git_blob_sha1": "924c1fe12dce6c901095ad6d9afdb4f7c2112b7a",
+      "github_main_blob_sha1": "e9febdf3d7030feb16e39dcd57275497c18983a7"
+    },
+    {
+      "path": "source_snapshot/models/detr.py",
+      "server_runtime_git_blob_sha1": "8943f96633f8797682e8e0491f15f729b2e40984",
+      "github_main_blob_sha1": "dff6d88de670c755bf918e657dcaa5a6f20bb59b"
+    },
+    {
+      "path": "source_snapshot/prototype_e1_checkpoint.py",
+      "server_runtime_git_blob_sha1": "8d0cfe713f890c75b1220619cd8a56290438a564",
+      "github_main_blob_sha1": null
+    },
+    {
+      "path": "source_snapshot/models/prototype_residual_adapter_e2.py",
+      "server_runtime_git_blob_sha1": "8a48fe67c21454e5937c72395e81a82a5476d097",
+      "github_main_blob_sha1": null
+    },
+    {
+      "path": "source_snapshot/test_prototype_residual_adapter_e2.py",
+      "server_runtime_git_blob_sha1": "5aa7f2d98368b4ef959a13b110a5c9debd709072",
+      "github_main_blob_sha1": null
+    }
+  ],
+  "excluded": [
+    "model checkpoints",
+    "dataset/images/annotations",
+    "full split manifest with filenames",
+    "large console.log files"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "initialization": "P2P baseline best checkpoint 0318; fresh optimizer; start_epoch=0",
+  "model": "ResNet-50 P2P, hidden_dim=256, enc_layers=6, batch_size=1",
+  "seed": 0,
+  "weight_decay": 0.0001,
+  "validation_protocol": "Deterministic 30% slide-group holdout from source train; 5 validation groups, 2 training groups; 605 validation files and 1437 training files after filtering",
+  "e2": {
+    "loss_coefficient": 1,
+    "metric_loss_weight": 0.1,
+    "metric_margin": 0.1,
+    "metric_beta": 16,
+    "embedding_dim": 64,
+    "hidden_dim": 128,
+    "max_positive": 32,
+    "max_negative": 64,
+    "positive_radius_px": 15,
+    "negative_radius_px": 30,
+    "negative_score_floor": 0.1,
+    "geometry_warmup_epochs": 5,
+    "detector_warmup_epochs": 20,
+    "residual_alpha_init": 0.05,
+    "residual_alpha_max": 0.5
+  },
+  "run": "E2-B",
+  "mode": "online",
+  "epochs": 40,
+  "learning_rate": 0.00001,
+  "residual_activation": "reported residual_enabled=1 begins at validation epoch 25"
+}

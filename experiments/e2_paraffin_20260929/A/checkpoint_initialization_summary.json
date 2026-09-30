@@ -1,0 +1,8 @@
+{
+  "checkpoint_alias": "P2P baseline best checkpoint (0318)",
+  "loaded_tensors": 397,
+  "shape_mismatch_keys": 0,
+  "unexpected_keys": 0,
+  "new_e2_parameters_initialized": 8,
+  "note": "Absolute server path omitted."
+}

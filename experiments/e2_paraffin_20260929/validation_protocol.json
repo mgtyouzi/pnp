@@ -1,0 +1,6 @@
+{
+  "dataset_scope": "Paraffin-only training and source-train validation; no official held-out test result is included.",
+  "split": "Seed 0 deterministic slide-group holdout from source train; requested fraction 0.30, actual 0.296278; 5 validation groups/2 training groups; 605 validation files/1437 training files after filtering.",
+  "important_caveat": "The fixed baseline checkpoint may already have seen the held-out source slides. This is E2 model-selection validation, not an independent baseline comparison or final test estimate.",
+  "empty_policy": "No-empty protocol; raw split manifest and filenames intentionally excluded."
+}
